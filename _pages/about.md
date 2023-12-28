@@ -62,11 +62,11 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 </ul>
 <h1>Recent News</h1>
 
-- **Aug 24:** New pre-prints on Fourier-KAN Text Classification and Code-Mixed Bengali Sentiment Analysis are available on arXiv.
-- **Jul 24:** Pre-print on Visual Robustness Benchmark for VQA is available on arXiv.
-- **May 24:** Achieved Top 7 in Robi Datathon 3.0.
-- **May 24:** Exist Workshop Papers accepted.
-- **Jan 24:** VQA Survey is accepted in Information Fusion.
+- **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
+- **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
+- **May 24:** Ranked in the Top 7 at Robi Datathon 3.0, Bangladesh's largest data science event with 3,500+ participants.
+- **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
+- **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
 <br>
 <h1>Research Highlights</h1>
 <h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
@@ -87,8 +87,8 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 </div>
 
 <ul style="font-size: 16px;">
-    <li>Large-scale benchmark comprising of 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
-    <li>Novel robustness evaluation metrics, which can be aggregated into a unified metric adaptable for multiple use cases.</li>
+    <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
+    <li>Novel robustness evaluation metrics that can be aggregated into a unified metric adaptable for multiple use cases.</li>
     <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li>
 </ul>
 
@@ -108,7 +108,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 
 <ul style="font-size: 16px;">
     <li> Comprehensive survey on VQA datasets, methods, metrics, challenges, and research opportunities. </li>
-    <li> New taxonomy that systemetically categories VQA literature and multimodal learning tasks. </li>
+    <li> New taxonomy that systematically categorizes VQA literature and multimodal learning tasks. </li>
     <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
 </ul>
 
