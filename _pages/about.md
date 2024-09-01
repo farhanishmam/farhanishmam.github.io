@@ -62,11 +62,11 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 </ul>
 <h1>Recent News</h1>
 
-- **Aug 24:** New pre-prints on Fourier-KAN Text Classification and Code-Mixed Bengali Sentiment Analysis are available on arXiv.
-- **Jul 24:** Pre-print on Visual Robustness Benchmark for VQA is available on arXiv.
+- **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
+- **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
 - **May 24:** Achieved Top 7 in Robi Datathon 3.0.
-- **May 24:** Exist Workshop Papers accepted.
-- **Jan 24:** VQA Survey is accepted in Information Fusion.
+- **May 24:** Multiple papers accepted in EXIST-2024.
+- **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
 <br>
 <h1>Research Highlights</h1>
 <h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
