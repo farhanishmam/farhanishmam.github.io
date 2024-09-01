@@ -67,7 +67,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 - **May 24:** Achieved Top 7 in Robi Datathon 3.0.
 - **May 24:** Exist Workshop Papers accepted.
 - **Jan 24:** VQA Survey is accepted in Information Fusion.
-
+<br>
 <h1>Research Highlights</h1>
 <h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
 
