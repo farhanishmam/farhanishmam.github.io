@@ -44,18 +44,18 @@ redirect_from:
 </html>
 <p class="justified-text">
 I am a researcher at <a href="https://ndagcse.iutoic-dhaka.edu/">NDAG Lab</a> and <a href="https://www.pentabd.com/">Penta Global Limited</a>. I completed my Bachelor's in Computer Science and Engineering (<a href="https://cse.iutoic-dhaka.edu/">CSE</a>) from Islamic University of Technology (<a href="https://www.iutoic-dhaka.edu/">IUT</a>) and have started working as a lecturer in the same department.
-<br>
+<br><br>
 Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> on assistive technologies for color blindness. My research interests include:
 </p>
 <ul>
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
   
   Interplay between Visual and Textual modalities, how information is conveyed between them, practical usability of multimodal systems and potential applications.
-  <br>
+  <br><br>
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
   Intricacies of less-explored languages, mixing of words and scripts between languages, resource transfer between languages to enhance NLP.
-  <br>
+  <br><br>
   <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
   
   Knowledge profiling of LLMs, how LLMs can achieve comparable performance by using less resources.  
