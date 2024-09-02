@@ -21,6 +21,7 @@ redirect_from:
             cursor: pointer;
             border-radius: 5px;
             transition: all 0.3s ease;
+            text-decoration: none;     /* Removes the underline */
         }
 
         .transparent-button:hover {
