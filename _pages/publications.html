@@ -26,6 +26,22 @@ author_profile: true
             background-color: #3498db;
             color: white;
         }
+    .button-link {
+            display: inline-block;     /* Makes the link behave like a button */
+            background-color: transparent; /* Background color of the button */
+            color: #3498db;              /* Text color */
+            padding: 10px 20px;        /* Padding for size */
+            text-align: center;        /* Centers the text */
+            text-decoration: none;     /* Removes the underline */
+            font-size: 16px;           /* Font size */
+            border-radius: 5px;        /* Rounded corners */
+            border: 2px solid #3498db;              /* No border */
+        }
+   .button-link:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
   </style>
 
 </head>
@@ -40,7 +56,7 @@ The full list of articles is available on my <a href="https://scholar.google.com
     <strong>Md Farhan Ishmam*</strong>, Ishmam Tashdeed*, Talukder Asir Saadat*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain<br>
     <button class="transparent-button" onclick="window.location.href='https://arxiv.org/abs/2407.03386'">ArVix</button>
     <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">Code</button>
-    <a href="https://www.example.com" class="transparent-button">
+    <a href="https://www.example.com" class="button-link">
         Code
     </a>
 </div>
