@@ -13,21 +13,20 @@ redirect_from:
     <title>Transparent Button</title>
     <style>
         .transparent-button {
-            display: inline-block;     /* Makes the link behave like a button */
-            background-color: transparent; /* Background color of the button */
-            color: #3498db;              /* Text color */
-            padding: 10px 20px;        /* Padding for size */
-            text-align: center;        /* Centers the text */
-            text-decoration: none;     /* Removes the underline */
-            font-size: 16px;           /* Font size */
-            border-radius: 5px;        /* Rounded corners */
-            border: 2px solid #3498db;              /* No border */
+            background-color: transparent;
+            border: 2px solid #3498db;
+            color: #3498db;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
         }
-   .transparent-button:hover {
+
+        .transparent-button:hover {
             background-color: #3498db;
             color: white;
         }
-
 
         .justified-text {
             text-align: justify;
@@ -81,10 +80,6 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
     Code
 </button>
-
-<a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" class="transparent-button">
-        Code
-    </a>
 </body>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
