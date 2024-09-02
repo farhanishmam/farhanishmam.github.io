@@ -50,15 +50,15 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <ul>
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
   
-  Interplay between Visual and Textual modalities, how information is conveyed between them, practical usability of multimodal systems and potential applications.
+  Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems.
   <br><br>
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
-  Intricacies of less-explored languages, mixing of words and scripts between languages, resource transfer between languages to enhance NLP.
+  Intricacies of less-explored languages, mixing of words and scripts between languages, and how high-resource languages can enhance NLP of low-resource languages.
   <br><br>
   <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
   
-  Knowledge profiling of LLMs, how LLMs can achieve comparable performance by using less resources.  
+  Knowledge profiling of LLMs, how LLMs can achieve comparable performance on reduced input through techniques like token attribution.  
 </ul>
 <h1>Recent News</h1>
 
