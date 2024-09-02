@@ -67,7 +67,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 - **May 24:** Ranked in the Top 7 at Robi Datathon 3.0, Bangladesh's largest data science event with 3,500+ participants.
 - **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
 - **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
-<br>
+<br><br>
 <h1>Research Highlights</h1>
 <h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
 
