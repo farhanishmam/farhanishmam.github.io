@@ -80,6 +80,10 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
     Code
 </button>
+
+<a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" class="transparent-button">
+        Code
+    </a>
 </body>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
