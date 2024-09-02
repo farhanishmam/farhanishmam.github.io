@@ -13,21 +13,21 @@ redirect_from:
     <title>Transparent Button</title>
     <style>
         .transparent-button {
-            background-color: transparent;
-            border: 2px solid #3498db;
-            color: #3498db;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: all 0.3s ease;
+            display: inline-block;     /* Makes the link behave like a button */
+            background-color: transparent; /* Background color of the button */
+            color: #3498db;              /* Text color */
+            padding: 10px 20px;        /* Padding for size */
+            text-align: center;        /* Centers the text */
             text-decoration: none;     /* Removes the underline */
+            font-size: 16px;           /* Font size */
+            border-radius: 5px;        /* Rounded corners */
+            border: 2px solid #3498db;              /* No border */
         }
-
-        .transparent-button:hover {
+   .transparent-button:hover {
             background-color: #3498db;
             color: white;
         }
+
 
         .justified-text {
             text-align: justify;
