@@ -45,7 +45,7 @@ redirect_from:
 <p class="justified-text">
 I am a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a researcher at <a href="https://www.pentabd.com/">Penta Global Limited</a>. Before joining IUT, I completed my Bachelor's in Computer Science and Engineering (CSE) from IUT and was a researcher at <a href = "https://amirl.org/">AMIRL</a>. 
 <br><br>
-Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> on assistive technologies for color blindness. My research interests include:
+Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> (<a href="https://www.uq.edu.au/">UQ</a>) on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> (<a href="https://www.ubc.ca/">UBC</a>) on assistive technologies for color blindness. My research interests include:
 </p>
 <ul>
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
@@ -54,11 +54,15 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
   <br><br>
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
-  Intricacies of less-explored languages, mixing of words and scripts between languages, and how high-resource languages can enhance NLP of low-resource languages.
+  Intricacies of less-explored languages, challenges of word and script mixing between languages, and how high-resource languages can enhance NLP capabilities of low-resource languages.
   <br><br>
   <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
   
-  Knowledge profiling of LLMs, how LLMs can achieve comparable performance on reduced input through techniques like token attribution.  
+  Knowledge profiling of LLMs, how LLMs can maintain comparable performance on reduced input through techniques like token attribution.  
+  <br><br>
+  <li><strong>Multicultural and Inclusive NLP</strong></li>
+  
+  Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism.
 </ul>
 <h1>Recent News</h1>
 
