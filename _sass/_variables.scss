@@ -56,7 +56,7 @@ $sidebar-link-max-width     : 250px;
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : #000000;
+$dark-gray                  : mix(#000, $gray, 95%);
 $darker-gray                : mix(#000, $gray, 95%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);

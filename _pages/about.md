@@ -64,16 +64,16 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
   
   <p class="justified-text"> Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism. </p>
 </ul>
-<h1>Recent News</h1>
+<h2>Recent News</h2>
 
 - **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
 - **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
 - **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants.
 - **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
 - **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
-<br><br>
-<h1>Research Highlights</h1>
-<h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
+<br>
+<h2>Research Highlights</h2>
+<h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
 
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
 <body>
@@ -116,7 +116,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
     <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
 </ul>
 
-<h2>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h2>
+<h3>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h3>
 
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
