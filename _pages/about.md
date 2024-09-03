@@ -51,18 +51,18 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
   
   <p class="justified-text"> Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems. </p>
-  <br><br>
+ 
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
-  Intricacies of less-explored languages, challenges of word and script mixing between languages, and how high-resource languages can enhance NLP capabilities of low-resource languages.
-  <br><br>
+  <p class="justified-text"> Intricacies of less-explored languages, challenges of word and script mixing between languages, and how high-resource languages can enhance NLP capabilities of low-resource languages.</p>
+  
   <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
   
-  Knowledge profiling of LLMs, how LLMs can maintain comparable performance on reduced input through techniques like token attribution.  
-  <br><br>
+  <p class="justified-text"> Knowledge profiling of LLMs, how LLMs can maintain comparable performance on reduced input through techniques like token attribution.</p> 
+
   <li><strong>Multicultural and Inclusive NLP</strong></li>
   
-  Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism.
+  <p class="justified-text"> Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism. </p>
 </ul>
 <h1>Recent News</h1>
 
@@ -101,7 +101,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
 <body>
 <button class="transparent-button" onclick="window.location.href='https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484'">
-    Information Fusion 2024
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484"> Information Fusion 2024 </a>
 </button>
 </body>
 
