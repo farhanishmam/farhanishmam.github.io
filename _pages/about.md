@@ -50,7 +50,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <ul>
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
   
-  Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems.
+  <p class="justified-text"> Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems. </p>
   <br><br>
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
