@@ -1,194 +1,32 @@
 ---
 permalink: /
-title: ""
+title:
+excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transparent Button</title>
-    <style>
-        .transparent-button {
-            background-color: transparent;
-            border: 2px solid #3498db;
-            color: #3498db;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
 
-        .transparent-button:hover {
-            background-color: #3498db;
-            color: white;
-        }
 
-        .justified-text {
-            text-align: justify;
-        }
+<img align="right" src="https://cseveren.github.io/images/ChrisSeveren_UCSB_082016.jpg" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/>
+I am an Economic Advisor and Economist in the Research Department of the [Federal Reserve Bank of Philadelphia](https://www.philadelphiafed.org/). My research spans urban, environmental, and development economics. I completed my PhD in 2017 at the University of California, Santa Barbara, where I was advised by faculty in both the [Department of Economics](https://econ.ucsb.edu/) and the [Bren School](https://www.bren.ucsb.edu/). While I was in Santa Barbara, I [raced](https://cseveren.github.io/files/18673170_10212419321132629_776692333297586652_o.jpg) [wa'a](https://en.wikipedia.org/wiki/Outrigger_boat).
 
-        .justified-text-para {
-            text-align: justify;
-            font-size: 16px; 
-        }
+Before graduate school, I worked for an energy efficiency consulting firm in Austin, TX. During my undergraduate studies at the University of Texas at Austin, where I majored in Latin American Studies ([LLILAS](https://liberalarts.utexas.edu/llilas/)) and Economics, I produced documentaries about social issues in Thailand and Paraguay. Once upon a time, I spent two years at UNT in Denton, TX, thinking I wanted to study music. Before that, I delivered pizza and gassed up boats.
 
-    </style>
-    
+### New Developments
+* Jun '24 - Updated draft about [driving restrictions and teen school and work outcomes](https://cseveren.github.io/files/driving_dropouts_draft.pdf) with [Valerie Bostwick](https://vkbostwick.weebly.com/), now shows long-run effects.
+* May '23 - What started as an interdisciplinary chat turned into a paper and is now out at Nature Communications (with Laura Dee and Paul Ferraro)! This long-running project applies causal econometric techniques to the analysis of [biodiversity and (grassland) productivity](https://www.nature.com/articles/s41467-023-37194-5).
+* Mar '23 - New Brookings post about whether currents trends in vehicle usage represent a [change in preferences](https://www.brookings.edu/research/why-are-young-people-driving-less-evidence-points-to-economics-not-preferences/) (the answer: no, at least not yet).
+* Jan '23 - Our paper on [racialized differences in commuting outcomes in the US since 1980](https://cseveren.github.io/files/racialized_difference_commuting_Final.pdf) has been accepted at JUE! This final version addresses market access, selection, and housing capitalization of commute times.
 
-</head>
-</html>
-<p class="justified-text">
-I am a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a researcher at <a href="https://www.pentabd.com/">Penta Global Limited</a>. Before joining IUT, I completed my Bachelor's in Computer Science and Engineering (CSE) from IUT and was a researcher at <a href = "https://amirl.org/">AMIRL</a>. 
-<br><br>
-Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> (<a href="https://www.uq.edu.au/">UQ</a>) on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> (<a href="https://www.ubc.ca/">UBC</a>) on assistive technologies for color blindness. My research interests include:
-</p>
-<ul>
-  <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
-  
-  Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems.
-  <br><br>
-  <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
-  
-  Intricacies of less-explored languages, challenges of word and script mixing between languages, and how high-resource languages can enhance NLP capabilities of low-resource languages.
-  <br><br>
-  <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
-  
-  Knowledge profiling of LLMs, how LLMs can maintain comparable performance on reduced input through techniques like token attribution.  
-  <br><br>
-  <li><strong>Multicultural and Inclusive NLP</strong></li>
-  
-  Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism.
-</ul>
-<h1>Recent News</h1>
 
-- **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
-- **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
-- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants.
-- **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
-- **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
-<br><br>
-<h1>Research Highlights</h1>
-<h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
+### Links for Posterity
+Fall 2020: Co-organized the [2020 Virtual Meeting of the Urban Economics Association](http://www.urbaneconomics.org/meetings/virtual2020/) (Fall 2020), the [Online Spatial and Urban Seminar](https://osus.info) (Summer 2020), and the [Online Urban Economics Seminar](https://sites.google.com/view/urban-econ-online) (Spring 2020).
 
-<b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
-<body>
-<button class="transparent-button" onclick="window.location.href='https://arxiv.org/abs/2407.03386'">
-    ArVix
-</button>
 
-<button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
-    Code
-</button>
-</body>
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-    <img src="images/overviewVRE.png" style="border: 2px solid black;">
-</div>
+### About this website
+Powered by [Jekyll](http://jekyllrb.com). Theme by [AcademicPages](https://github.com/academicpages/academicpages.github.io), a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/). Hosted on [GitHub Pages](https://pages.github.com/).
 
-<ul style="font-size: 16px;">
-    <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
-    <li>Novel robustness evaluation metrics that can be aggregated into a unified metric adaptable for multiple use cases.</li>
-    <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li>
-</ul>
-
-<h2>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h2>
-
-<b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
-<body>
-<button class="transparent-button" onclick="window.location.href='https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484'">
-    Information Fusion 2024
-</button>
-</body>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
-    <img src="images/vqaOverview.PNG" style="border: 2px solid black; max-width: 50%; height: 85%;  margin-right: 10px;">
-    <img src="images/vqaApp.PNG" style="border: 2px solid black; max-width: 50%; height: auto;">
-</div>
-
-<ul style="font-size: 16px;">
-    <li> Comprehensive survey on VQA datasets, methods, metrics, challenges, and research opportunities. </li>
-    <li> New taxonomy that systematically categorizes VQA literature and multimodal learning tasks. </li>
-    <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
-</ul>
-
-<h2>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h2>
-
-Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
-<br>
-<body>
-<button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
-    Code
-</button> </body>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
-    <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
-    <img src="images/tLit.png" style="border: 2px solid black; max-width: 60%; height: auto;">
-</div>
-
-<ul style="font-size: 16px;">
-    <li> First large-scale automated Bangla transliteration, BanglaTLit, with over 42.7k samples.</li>
-    <li> A romanized Bangla pre-training corpus, BanglaTLit-PT, with over 245.7k samples. </li>
-    <li> Novel T5-based dual encoder architecture achieving SOTA on BanglaTLit.</li>
-</ul>
-
-<!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
-
-<!-- ## Visual Question Answering (VQA)
-
-- **Visual Robustness Benchmark for Visual Question Answering (VQA)**
-   _In-review, Preprint Available_
-   **Md Farhan Ishmam**\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain
-   [Preprint](https://arxiv.org/abs/2407.03386) | [Code](https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark)
-  <button class="transparent-button" onclick="window.location.href='https://your-link-here.com'">
-  ArVix
-  </button>
-
-<button class="transparent-button" onclick="window.location.href='https://your-link-here.com'">
-    Code
-</button>
-
-- **ChitroJera: A Regionally Relevant Visual Question Answering Dataset for Bangla**
-  _In-review_
-  Md Fahim\*, Deeparghya Dutta Barua\*, Md Sakib Ul Rahman Sourove\*, **Md Farhan Ishmam**, Fariha Tanjim Shifat, Fabiha Haider, Farhad Alam Bhuiyan
-  [Code](https://github.com/farhanishmam/ChitroJera)
-
-- **From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities**
-  [_Information Fusion Journal_](https://www.sciencedirect.com/journal/information-fusion) | _2024_
-  **Md Farhan Ishmam**, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey
-  [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484) | [Preprint](https://arxiv.org/abs/2311.00308)
-
-## Transliteration and Code-Mixing
-
-- **BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis**
-  _In-review, Preprint Available_
-  Sadia Alam, **Md Farhan Ishmam**, Navid Hasin Alvee, Md Shahnewaz Siddique, Md Azam Hossain, Abu Raihan Mostofa Kamal
-  [Preprint](https://arxiv.org/abs/2408.08964) | [Code](https://github.com/Nishita2000/BnSentMix/)
-
-- **BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla**
-  _In-review_
-  Md Fahim\*, Fariha Tanjim Shifat\*, **Md Farhan Ishmam**\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
-  [Code](https://github.com/farhanishmam/BanglaTLit)
-
-## Harmful Content
-
-- **Penta NLP at EXIST 2024 Task 1–3: Sexism Identification, Source Intention, Sexism Categorization In Tweets**
-  [_EXIST at Conference and Labs of the Evaluation Forum (CLEF)_](http://nlp.uned.es/exist2024/) | _2024_
-  Fariha Tanjim Shifat, Fabiha Haider, Md Sakib Ul Rahman Sourove, Deeparghya Dutta Barua, **Md Farhan Ishmam**, Md Fahim, Farhad Alam Bhuiyan
-  [Paper](https://ceur-ws.org/Vol-3740/paper-114.pdf) | [Code](https://github.com/farhanishmam/Penta-Exist-2024)
-
-- **Penta ML at EXIST 2024: Tagging Sexism in Online Multimodal Content With Attention-enhanced Modal Context**
-  [_EXIST at Conference and Labs of the Evaluation Forum (CLEF)_](http://nlp.uned.es/exist2024/) | _2024_
-  Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Fabiha Haider, Fariha Tanjim Shifat, **Md Farhan Ishmam**, Md Fahim, Farhad Alam Bhuiyan
-  [Paper](https://ceur-ws.org/Vol-3740/paper-90.pdf) | [Code](https://github.com/farhanishmam/Penta-Exist-2024)
-
-## Text Classification Techniques
-
-- **Leveraging FourierKAN Classification Head for Pre-Trained Transformer-based Text Classification**
-  _Preprint Available_
-  Abdullah Al Imran\*, **Md Farhan Ishmam**\*
-  [Preprint](https://arxiv.org/abs/2408.08803) | [Code](https://github.com/abdalimran/FR-KAN-Text-Classification) -->
+<!-- Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. Hosted on GitHub Pages. -->
