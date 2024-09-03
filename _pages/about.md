@@ -78,11 +78,11 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
 <body>
 <button class="transparent-button" onclick="window.location.href='https://arxiv.org/abs/2407.03386'">
-    ArVix
+    <a href="https://arxiv.org/abs/2407.03386"> ArVix </a>
 </button>
 
 <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
-    Code
+    <a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark"> Code </a>
 </button>
 </body>
 
@@ -122,7 +122,7 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
 <br>
 <body>
 <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
-    Code
+    <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
 </button> </body>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
