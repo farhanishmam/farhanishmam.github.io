@@ -68,7 +68,7 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 
 - **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
 - **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
-- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data science event with 3,500+ participants.
+- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants.
 - **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
 - **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
 <br><br>
