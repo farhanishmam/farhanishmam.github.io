@@ -16,7 +16,7 @@ redirect_from:
             background-color: transparent;
             border: 2px solid #3498db;
             color: #3498db;
-            padding: 7px 15px;
+            padding: 5px 15px;
             font-size: 12px;
             cursor: pointer;
             border-radius: 5px;
