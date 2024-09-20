@@ -63,7 +63,7 @@ Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a 
   <p class="justified-text"> Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism. </p>
 </ul>
 <h2>News and Updates</h2>
-
+- **Sep 24:** <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024.
 - **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
 - **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
 - **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants.
@@ -119,6 +119,8 @@ Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a 
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
 <body>
+<button class="transparent-button" onclick="window.location.href=''"> EMNLP Findings 2024 </button>
+  
 <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
     <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
 </button> </body>
