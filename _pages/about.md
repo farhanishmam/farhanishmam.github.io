@@ -16,8 +16,8 @@ redirect_from:
             background-color: transparent;
             border: 2px solid #3498db;
             color: #3498db;
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 5px 15px;
+            font-size: 12px;
             cursor: pointer;
             border-radius: 5px;
             transition: all 0.3s ease;
@@ -43,42 +43,44 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-I am a researcher at <a href="https://ndagcse.iutoic-dhaka.edu/">NDAG Lab</a> and <a href="https://www.pentabd.com/">Penta Global Limited</a>. I am also working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and have completed my Bachelor's in Computer Science and Engineering from the same university. 
+Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a researcher at <a href="https://www.pentabd.com/">Penta Global Limited</a>. Before joining IUT, I completed my Bachelor's in Computer Science and Engineering (CSE) from IUT and was a researcher at <a href = "https://amirl.org/">AMIRL</a>.<br><br>My research explores the interaction between different modalities, such as vision and language, and different linguistic variations, such as transliteration, code-mixing, and dialects. Currently, I am working with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> (<a href="https://www.uq.edu.au/">UQ</a>) on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> (<a href="https://www.ubc.ca/">UBC</a>) on assistive technologies for color blindness. My research interests span:
 </p>
-
-Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32270">Dr Mohammad Ali Moni</a> on LLM applications in the biomedical domain and <a href = "https://sites.google.com/view/mirrayatimtiazhossain/home">Mir Rayat Imtiaz Hossain</a> on assistive technologies for color blindness. My research interests include:
 <ul>
   <li><strong>Visual Question Answering (VQA) and Multimodal Learning</strong></li>
   
-  Interplay between Visual and Textual modalities, how information is conveyed between them, practical usability of multimodal systems and potential applications.
-  <br>
+  <p class="justified-text"> Interplay between visual and textual modalities, how information is conveyed between modalities, practical usability and potential applications of multimodal systems. </p>
+ 
   <li><strong>Low Resource Natural Language Processing (NLP)</strong></li>
   
-  Intricacies of less-explored languages, mixing of words and scripts between languages, resource transfer between languages to enhance NLP.
-  <br>
+  <p class="justified-text"> Intricacies of less-explored languages, challenges of word and script mixing between languages, and how high-resource languages can enhance NLP capabilities of low-resource languages.</p>
+  
   <li><strong>Evaluation and Frugal Learning of Large Language Models (LLMs)</strong></li>
   
-  Knowledge profiling of LLMs, how LLMs can achieve comparable performance by using less resources.  
+  <p class="justified-text"> Knowledge profiling of LLMs, how LLMs can maintain comparable performance on reduced input through techniques like token attribution.</p> 
+
+  <li><strong>Multicultural and Inclusive NLP</strong></li>
+  
+  <p class="justified-text"> Addressing Western bias of NLP models, challenges in multicultural settings, and the complexities of detecting and mitigating diverse forms of hateful content, such as sexism. </p>
 </ul>
-<h1>Recent News</h1>
-
-- **Aug 24:** New pre-prints on Fourier-KAN Text Classification and Code-Mixed Bengali Sentiment Analysis are available on arXiv.
-- **Jul 24:** Pre-print on Visual Robustness Benchmark for VQA is available on arXiv.
-- **May 24:** Achieved Top 7 in Robi Datathon 3.0.
-- **May 24:** Exist Workshop Papers accepted.
-- **Jan 24:** VQA Survey is accepted in Information Fusion.
-
-<h1>Research Highlights</h1>
-<h2>Visual Robustness Benchmark for Visual Question Answering (VQA)</h2>
+<h2>News and Updates</h2>
+- **Sep 24:** <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024.
+- **Aug 24:** New preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a> are available on arXiv.
+- **Jul 24:** New preprint on <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is available on arXiv.
+- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants.
+- **May 24:** Multiple papers accepted in <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a>.
+- **Jan 24:** <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> is accepted in Information Fusion.
+<br>
+<h2>Research Highlights</h2>
+<h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
 
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
 <body>
 <button class="transparent-button" onclick="window.location.href='https://arxiv.org/abs/2407.03386'">
-    ArVix
+    <a href="https://arxiv.org/abs/2407.03386"> ArVix </a>
 </button>
 
 <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
-    Code
+    <a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark"> Code </a>
 </button>
 </body>
 
@@ -87,17 +89,17 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 </div>
 
 <ul style="font-size: 16px;">
-    <li>Large-scale benchmark comprising of 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
-    <li>Novel robustness evaluation metrics, which can be aggregated into a unified metric adaptable for multiple use cases.</li>
+    <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
+    <li>Novel robustness evaluation metrics that can be aggregated into a unified metric adaptable for multiple use cases.</li>
     <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li>
 </ul>
 
-<h2>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h2>
+<h3>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h3>
 
 <b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
 <body>
 <button class="transparent-button" onclick="window.location.href='https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484'">
-    Information Fusion 2024
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484"> Information Fusion 2024 </a>
 </button>
 </body>
 
@@ -108,17 +110,19 @@ Currently, I am collaborating with <a href = "https://about.uq.edu.au/experts/32
 
 <ul style="font-size: 16px;">
     <li> Comprehensive survey on VQA datasets, methods, metrics, challenges, and research opportunities. </li>
-    <li> New taxonomy that systemetically categories VQA literature and multimodal learning tasks. </li>
+    <li> New taxonomy that systematically categorizes VQA literature and multimodal learning tasks. </li>
     <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
 </ul>
 
-<h2>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h2>
+<h3>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h3>
 
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
 <body>
+<button class="transparent-button" onclick="window.location.href=''"> EMNLP Findings 2024 </button>
+  
 <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
-    Code
+    <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
 </button> </body>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">

@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Md Farhan Ishmam"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher at IUT-CSE and Penta Global Ltd. Interested in VQA, Low-Rosource NLP, Frugal Learning and Evaluation of LLM."
+  bio              : "Lecturer (IUT-CSE), Researcher (Penta Global Ltd.)"
   location         : # "Dhaka, Bangladesh"
   employer         : # "Islamic University of Technology"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=VIEERisAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : 0009-0004-3725-0342
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
