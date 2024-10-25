@@ -43,7 +43,7 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm a Lecturer and final year MSc student at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a>. I'm also working as a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Before that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was a researcher at <a href = "https://amirl.org/">AMIRL</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of LLMs through frugal representations. Broadly speaking, my research interests span:
+Hi, I'm a Lecturer and final year MSc student at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a>. I'm also working as a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
 </p>
 <ul>
   <li><strong>Visual Question Answering (VQA) & Multimodal Learning</strong></li>
@@ -52,15 +52,15 @@ Hi, I'm a Lecturer and final year MSc student at <a href="https://cse.iutoic-dha
  
   <li><strong>Multicultural & Low Resource Natural Language Processing (NLP)</strong></li>
   
-  <p class="justified-text"> Addressing western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language mixing; enhancing low-resource languages using cross-lingual data.</p>
+  <p class="justified-text"> Addressing western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language mixing settings; enhancing low-resource languages using cross-lingual data.</p>
   
   <li><strong>Resource Efficiency & Frugal Representation</strong></li>
   
-  <p class="justified-text">Methods to reduce visual/textual token count while maintaining performance and thereby, minimizing inference cost. </p> 
+  <p class="justified-text">Methods to reduce visual/textual token count while maintaining performance and thereby, minimizing inference cost of LLMs. </p> 
 
 </ul>
 <h2>News and Updates</h2>
-- **Oct 24:** Check out our pre-prints on Bangla VQA, [ChitroJera](https://arxiv.org/abs/2410.14991), and multi-label hate speech detection on transliterated Bangla, [BanTH.](https://arxiv.org/abs/2410.13281)
+- **Oct 24:** Check out our pre-prints on Bangla VQA system, [ChitroJera](https://arxiv.org/abs/2410.14991), and multi-label hate speech detection on transliterated Bangla, [BanTH](https://arxiv.org/abs/2410.13281).
 - **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS-2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
 - **Sep 24:** Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!
 - **Aug 24:** Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.
@@ -88,9 +88,13 @@ Hi, I'm a Lecturer and final year MSc student at <a href="https://cse.iutoic-dha
 </div>
 
 <ul style="font-size: 16px;">
-    <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
+  <li>Can VQA models maintain their performance in real-world scenarios, especially when prone to realistic visual corruptions, e.g. noise, blur?</li>
+  <li>How can we evaluate the robustness of VQA models when subjected to such common corruptions?</li>
+  <li>We propose a large-scale benchmark and robustness evaluation metrics to evaluate VQA models before deployment.</li>
+  <li>We quantify aspects of performance drop, e.g. rate, range, mean. We found that models with higher accuracy are not necessarily more robust. </li>
+<!--     <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
     <li>Novel robustness evaluation metrics that can be aggregated into a unified metric adaptable for multiple use cases.</li>
-    <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li>
+    <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li> -->
 </ul>
 
 <h3>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h3>
