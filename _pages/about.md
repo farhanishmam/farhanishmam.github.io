@@ -43,7 +43,7 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm a Lecturer and final year MSc student at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a>. I'm also working as a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
+Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a>. I'm also working as a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
 </p>
 <ul>
   <li><strong>Visual Question Answering (VQA) & Multimodal Learning</strong></li>
@@ -134,9 +134,9 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
 </div>
 
 <ul style="font-size: 16px;">
-    <li> First large-scale automated Bangla transliteration, BanglaTLit, with over 42.7k samples.</li>
-    <li> A romanized Bangla pre-training corpus, BanglaTLit-PT, with over 245.7k samples. </li>
-    <li> Novel T5-based dual encoder architecture achieving SOTA on BanglaTLit.</li>
+    <li> How can we enhance the representation of romanized Bangla for automatic back-transliteration using seq2seq models?</li>
+    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language-encoders and seq2seq models.</li>
+    <li> We aggregate representations from transliterated Bangla encoders with seq2seq models [Dual Encoders->Aggregation->Decoder architecture] to achieve SOTA on Bangla back-transliteration.</li>
 </ul>
 
 <!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
