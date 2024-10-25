@@ -97,6 +97,28 @@ Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic
     <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li> -->
 </ul>
 
+<h3>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h3>
+
+Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
+<br>
+<body>
+<button class="transparent-button" onclick="window.location.href=''"> EMNLP Findings 2024 </button>
+  
+<button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
+    <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
+</button> </body>
+
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
+    <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
+    <img src="images/tLit.png" style="border: 2px solid black; max-width: 60%; height: auto;">
+</div>
+
+<ul style="font-size: 16px;">
+    <li> How can we enhance the representation of Romanized Bangla for automatic back-transliteration using seq2seq models?</li>
+    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language encoders and seq2seq models.</li>
+    <li> We aggregate representations from transliterated Bangla encoders with seq2seq models [Dual Encoders->Aggregation->Decoder architecture] to achieve SOTA on Bangla back-transliteration.</li>
+</ul>
+
 <h3>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h3>
 
 <b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
@@ -117,27 +139,7 @@ Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic
     <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
 </ul>
 
-<h3>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h3>
 
-Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
-<br>
-<body>
-<button class="transparent-button" onclick="window.location.href=''"> EMNLP Findings 2024 </button>
-  
-<button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
-    <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
-</button> </body>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
-    <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
-    <img src="images/tLit.png" style="border: 2px solid black; max-width: 60%; height: auto;">
-</div>
-
-<ul style="font-size: 16px;">
-    <li> How can we enhance the representation of romanized Bangla for automatic back-transliteration using seq2seq models?</li>
-    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language encoders and seq2seq models.</li>
-    <li> We aggregate representations from transliterated Bangla encoders with seq2seq models [Dual Encoders->Aggregation->Decoder architecture] to achieve SOTA on Bangla back-transliteration.</li>
-</ul>
 
 <!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
 
