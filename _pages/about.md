@@ -64,8 +64,8 @@ Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic
 - **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS-2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
 - **Sep 24:** Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!
 - **Aug 24:** Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.
-- **Jul 24:** New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv. I'm grateful to my wonderful teammates and advisors.
-- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another one for team Penta!
+- **Jul 24:** New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv. I'm grateful to my wonderful teammates and advisors at IUT-CSE.
+- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!
 - **May 24:** Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.
 - **Jan 24:** Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.
 <br>
@@ -135,7 +135,7 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
 
 <ul style="font-size: 16px;">
     <li> How can we enhance the representation of romanized Bangla for automatic back-transliteration using seq2seq models?</li>
-    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language-encoders and seq2seq models.</li>
+    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language encoders and seq2seq models.</li>
     <li> We aggregate representations from transliterated Bangla encoders with seq2seq models [Dual Encoders->Aggregation->Decoder architecture] to achieve SOTA on Bangla back-transliteration.</li>
 </ul>
 
