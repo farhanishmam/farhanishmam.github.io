@@ -43,7 +43,7 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a>. I'm also working as a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
+Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
 </p>
 <ul>
   <li><strong>Visual Question Answering (VQA) & Multimodal Learning</strong></li>
@@ -60,11 +60,13 @@ Hi, I'm a Lecturer and final year Masters student at <a href="https://cse.iutoic
 
 </ul>
 <h2>News and Updates</h2>
+- **Dec 24:** <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in [LoResLM](https://loreslm.github.io/) at COLING 2025. 
+- **Oct 24:** <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV 2025. I'm grateful to my wonderful teammates and advisors at IUT-CSE.
 - **Oct 24:** Check out our pre-prints on Bangla VQA system, [ChitroJera](https://arxiv.org/abs/2410.14991), and multi-label hate speech detection on transliterated Bangla, [BanTH](https://arxiv.org/abs/2410.13281).
-- **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS-2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
+- **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS 2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
 - **Sep 24:** Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!
-- **Aug 24:** Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.
-- **Jul 24:** New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv. I'm grateful to my wonderful teammates and advisors at IUT-CSE.
+- **Aug 24:** Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">BnSentMix: Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.
+- **Jul 24:** New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv.
 - **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!
 - **May 24:** Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.
 - **Jan 24:** Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.
