@@ -60,7 +60,8 @@ Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a 
 
 </ul>
 <h2>News and Updates</h2>
-- **Dec 24:** <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in [LoResLM](https://loreslm.github.io/) at COLING 2025. 
+- **Jan 25:** <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!
+- **Dec 24:** <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in [LoResLM](https://loreslm.github.io/) at COLING 2025!
 - **Oct 24:** <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV 2025. I'm grateful to my wonderful teammates and advisors at IUT-CSE.
 - **Oct 24:** Check out our pre-prints on Bangla VQA system, [ChitroJera](https://arxiv.org/abs/2410.14991), and multi-label hate speech detection on transliterated Bangla, [BanTH](https://arxiv.org/abs/2410.13281).
 - **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS 2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
@@ -76,13 +77,12 @@ Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a 
 
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
 <body>
-<button class="transparent-button" onclick="window.location.href='https://arxiv.org/abs/2407.03386'">
-    <a href="https://arxiv.org/abs/2407.03386"> ArVix </a>
-</button>
-
-<button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'">
-    <a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark"> Code </a>
-</button>
+<button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf">Paper</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf">Supp</a></button>  
+  <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'"><a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark">Code</a></button>
+   <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view'"><a href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view">Poster</a></button>
+  <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view'"><a href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view">Slides</a></button>
+  <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view'"><a href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view">Video</a></button>
 </body>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
@@ -104,11 +104,13 @@ Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a 
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
 <body>
-<button class="transparent-button" onclick="window.location.href=''"> EMNLP Findings 2024 </button>
-  
-<button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'">
-    <a href="https://github.com/farhanishmam/BanglaTLit">Code</a>
-</button> </body>
+<button class="transparent-button" onclick="window.location.href='https://aclanthology.org/2024.findings-emnlp.859.pdf'"><a href="https://aclanthology.org/2024.findings-emnlp.859.pdf">Paper</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'"><a href="https://github.com/farhanishmam/BanglaTLit">Code</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://huggingface.co/datasets/aplycaebous/BanglaTLit'"><a href="https://huggingface.co/datasets/aplycaebous/BanglaTLit">Dataset</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view'"><a href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view">Poster</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view'"><a href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view">Slides</a></button>
+    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view'"><a href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view">Video</a></button>
+</body>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
     <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
