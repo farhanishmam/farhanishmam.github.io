@@ -46,15 +46,15 @@ redirect_from:
 Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's degree from IUT-CSE.<br><br>Currently, I am exploring domain adaptation and continual learning for Vision-Language Models (VLMs), specifically its application in computer use. Broadly speaking, my research interests span:
 </p>
 <ul>
-  <li><strong>Continual & Lifelong learning for VLMs</strong></li>
+  <li>Continual & Lifelong learning for VLMs</li>
   
-  [<p class="justified-text"> How can we quickly adapt </p>]: #
+  <!-- <p class="justified-text"> How can we quickly adapt </p> -->
  
-  <li><strong>Agent-centric Benchmarks</strong></li>
+  <li>Agent-centric Benchmarks</li>
   
-  [<p class="justified-text"> Addressing Western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language-mixing settings; enhancing low-resource languages using cross-lingual data.</p>]: #
+  <!-- <p class="justified-text"> Addressing Western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language-mixing settings; enhancing low-resource languages using cross-lingual data.</p>]-->
   
-  <li><strong>Resource Efficient Learning & Adaptation</strong></li>
+  <li>Multimodal Adaptation & Transfer Learning</li>
 </ul>
 <h2>News and Updates</h2>
 - **Jan 25:** <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!
