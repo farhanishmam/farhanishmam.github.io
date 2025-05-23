@@ -43,21 +43,18 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm a Lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's in Computer Science and Engineering (CSE) from IUT and was an AI researcher at <a href = "https://www.pentabd.com/">Penta Global</a>.<br><br>Currently, I am exploring modality alignment methods of Vision-Language models, low-resource language enhancement using the linguistic foundations shared with high-resource languages (i.e. cross-lingual data), and cost-minimization strategies of Large Language Models (LLMs) through frugal representations. Broadly speaking, my research interests span:
+Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's degree from IUT-CSE.<br><br>Currently, I am exploring domain adaptation and continual learning for Vision-Language Models (VLMs), specifically its application in computer use. Broadly speaking, my research interests span:
 </p>
 <ul>
-  <li><strong>Visual Question Answering (VQA) & Multimodal Learning</strong></li>
+  <li><strong>Continual & Lifelong learning for VLMs</strong></li>
   
-  <p class="justified-text"> Interplay between modalities and how information can be conveyed across them, e.g., in layered architectures through modality adapters, and alignment strategies. </p>
+  [<p class="justified-text"> How can we quickly adapt </p>]: #
  
-  <li><strong>Multicultural & Low Resource Natural Language Processing (NLP)</strong></li>
+  <li><strong>Agent-centric Benchmarks</strong></li>
   
-  <p class="justified-text"> Addressing western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language mixing settings; enhancing low-resource languages using cross-lingual data.</p>
+  [<p class="justified-text"> Addressing Western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language-mixing settings; enhancing low-resource languages using cross-lingual data.</p>]: #
   
-  <li><strong>Resource Efficiency & Frugal Representation</strong></li>
-  
-  <p class="justified-text">Methods to reduce visual/textual token count while maintaining performance and thereby, minimizing inference cost of LLMs. </p> 
-
+  <li><strong>Resource Efficient Learning & Adaptation</strong></li>
 </ul>
 <h2>News and Updates</h2>
 - **Jan 25:** <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!
