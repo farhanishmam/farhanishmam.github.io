@@ -38,6 +38,43 @@ redirect_from:
             font-size: 16px;
         }
 
+        .news-container {
+            max-height: 180px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 40px;
+            scrollbar-width: thin;
+            scrollbar-color: #888 #f0f0f0;
+        }
+
+        .news-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .news-container::-webkit-scrollbar-track {
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .news-container::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        .news-container::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+
+        .news-item {
+            padding: 6px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
     </style>
 
 </head>
@@ -57,31 +94,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I'm currently working as a
   <li>Multimodal Adaptation & Transfer Learning</li>
 </ul>
 <h2>News and Updates</h2>
-<div class="news-container" style="max-height: 180px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 40px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0;">
-<style>
-.news-container::-webkit-scrollbar {
-    width: 8px;
-}
-.news-container::-webkit-scrollbar-track {
-    background: #f0f0f0;
-    border-radius: 4px;
-}
-.news-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-}
-.news-container::-webkit-scrollbar-thumb:hover {
-    background: #666;
-}
-.news-item {
-    padding: 6px 0;
-    border-bottom: 1px solid #f0f0f0;
-}
-.news-item:last-child {
-    border-bottom: none;
-}
-</style>
-<div>
+<div class="news-container">
 <div class="news-item">- <strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</div>
 <div class="news-item">- <strong>Aug 25:</strong> Started my PhD at the University of Utah!</div>
 <div class="news-item">- <strong>June 25:</strong> <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, got accepted in ECML-PKDD'25!</div>
