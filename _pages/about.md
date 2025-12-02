@@ -57,18 +57,42 @@ Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as 
   <li>Multimodal Adaptation & Transfer Learning</li>
 </ul>
 <h2>News and Updates</h2>
-- **Jan 25:** <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!
-- **Dec 24:** <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in [LoResLM](https://loreslm.github.io/) at COLING 2025!
-- **Oct 24:** <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV 2025. I'm grateful to my wonderful teammates and advisors at IUT-CSE.
-- **Oct 24:** Check out our pre-prints on Bangla VQA system, [ChitroJera](https://arxiv.org/abs/2410.14991), and multi-label hate speech detection on transliterated Bangla, [BanTH](https://arxiv.org/abs/2410.13281).
-- **Oct 24:** <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in [FITML](https://sites.google.com/view/neurips2024-ftw) at NeurIPS 2024. Shoutout to my teammate [Abdullah Al Imran](https://www.imranabdullah.com/about).
-- **Sep 24:** Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!
-- **Aug 24:** Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">BnSentMix: Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.
-- **Jul 24:** New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv.
-- **May 24:** Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!
-- **May 24:** Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.
-- **Jan 24:** Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.
-<br>
+<div class="news-container" style="max-height: 180px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0;">
+<style>
+.news-container::-webkit-scrollbar {
+    width: 8px;
+}
+.news-container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+.news-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+.news-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.news-item:last-child {
+    border-bottom: none;
+}
+</style>
+<div class="news-item">- <strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!</div>
+<div class="news-item">- <strong>Dec 24:</strong> <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in <a href="https://loreslm.github.io/">LoResLM</a> at COLING 2025!</div>
+<div class="news-item">- <strong>Oct 24:</strong> <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV 2025. I'm grateful to my wonderful teammates and advisors at IUT-CSE.</div>
+<div class="news-item">- <strong>Oct 24:</strong> Check out our pre-prints on Bangla VQA system, <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, and multi-label hate speech detection on transliterated Bangla, <a href="https://arxiv.org/abs/2410.13281">BanTH</a>.</div>
+<div class="news-item">- <strong>Oct 24:</strong> <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in <a href="https://sites.google.com/view/neurips2024-ftw">FITML</a> at NeurIPS 2024. Shoutout to my teammate <a href="https://www.imranabdullah.com/about">Abdullah Al Imran</a>.</div>
+<div class="news-item">- <strong>Sep 24:</strong> Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!</div>
+<div class="news-item">- <strong>Aug 24:</strong> Check out the preprints on <a href="https://arxiv.org/abs/2408.08803">Fourier-KAN Text Classification</a> and <a href="https://arxiv.org/abs/2408.08964">BnSentMix: Code-Mixed Bengali Sentiment Analysis</a>, available on arXiv.</div>
+<div class="news-item">- <strong>Jul 24:</strong> New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv.</div>
+<div class="news-item">- <strong>May 24:</strong> Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!</div>
+<div class="news-item">- <strong>May 24:</strong> Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.</div>
+<div class="news-item">- <strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.</div>
+</div>
 <h2>Research Highlights</h2>
 <h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
 
