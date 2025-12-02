@@ -6,7 +6,7 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transparent Button</title>
+    <title>Experience</title>
     <style>
         .transparent-button {
             background-color: transparent;
@@ -24,94 +24,156 @@ author_profile: true
             color: white;
         }
 
-        .justified-text {
-            text-align: justify;
+        .experience-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            background-color: #fafafa;
+            transition: box-shadow 0.2s ease;
+            display: flex;
+            align-items: center;
         }
 
-        .justified-text-para {
-            text-align: justify;
-            font-size: 16px; 
+        .experience-item:hover {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
+        .experience-logo {
+            flex: 0 0 auto;
+            padding-right: 20px;
+        }
+
+        .experience-logo img {
+            width: 120px;
+            border-radius: 6px;
+        }
+
+        .experience-content {
+            flex: 1;
+        }
+
+        .experience-header {
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .experience-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .experience-date {
+            font-size: 0.85em;
+            color: #7a7a7a;
+        }
+
+        .experience-role {
+            margin: 4px 0 8px 0;
+            color: #333;
+        }
+
+        .experience-details {
+            color: #7a7a7a;
+            margin: 0;
+        }
+
+        .experience-details ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .experience-details li {
+            margin: 2px 0;
+        }
+
+        .section-title {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+        }
     </style>
-    
-
 </head>
-<h2>Teaching Experience</h2>
 
-<div style="display:flex; align-items:center;">
-  <div style="flex:0.5; padding-right:5%;">
-    <img src="../images/iut.jpg" style="border: 1px solid #d3d3d3; border-style: outset; width:150px">
-  </div>
+<h2 class="section-title">Teaching Experience</h2>
 
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">Islamic University of Technology</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">Aug 2023 -</span>
-    </p>
-    Lecturer, Computer Science and Engineering (CSE)
-    <div style="color:#7a7a7a">
-      <ul>
-		<li> CSE4549: Simulation and Modeling (Winter 2024)</li>
-		<li> CSE4621: Microprocessor and Interfacing (Summer 2023)</li>
-		<li> CSE4561: Business Analytics and Technology (Winter 2023)</li>
-	  </ul>
+<div class="experience-item">
+    <div class="experience-logo">
+        <img src="../images/iut.jpg" alt="IUT">
     </div>
-  </div>
-</div>
-<hr style="height:1em; margin:0em; visibility:hidden;" /><hr>
-<h2>Industry Experience</h2>
-<div style="display:flex; align-items:center;">
-  <div style="flex:0.5; padding-right:5%;">
-    <img src="../images/yaana.jpg" style="border: 1px solid #d3d3d3; border-style: outset; width:160px">
-  </div>
-<div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">Yaana Technologies, LLC</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">Sep 2023 -</span>
-    </p>
-    Research Intern
-    <div style="color:#7a7a7a">
-      <ul>
-		<li> Private Retrieval Augmented Generation (RAG) system for telecom domain.</li>
-	  </ul>
+    <div class="experience-content">
+        <div class="experience-header">
+            <span class="experience-title">Islamic University of Technology</span>
+            <span class="experience-date">Aug 2023 -</span>
+        </div>
+        <div class="experience-role">Lecturer, Computer Science and Engineering (CSE)</div>
+        <div class="experience-details">
+            <ul>
+                <li>CSE4549: Simulation and Modeling (Winter 2024)</li>
+                <li>CSE4621: Microprocessor and Interfacing (Summer 2023)</li>
+                <li>CSE4561: Business Analytics and Technology (Winter 2023)</li>
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
-<br>
-<div style="display:flex; align-items:center;">
-  <div style="flex:0.5; padding-right:5%;">
-    <img src="../images/penta.jpg" style="border: 1px solid #d3d3d3; border-style: outset; width:160px">
-  </div>
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">Penta Global Limited</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">May 2023 - Aug 2023</span>
-    </p>
-    AI Researcher
-    <div style="color:#7a7a7a">
-      <ul>
-		<li> Led projects on Bangla information retrieval and back-transliteration systems.</li>
-	  </ul>
-    </div>
-  </div>
-</div>
-<br>
-<div style="display:flex; align-items:center;">
-  <div style="flex:0.5; padding-right:5%;">
-    <img src="../images/amir.jpeg" style="border: 1px solid #d3d3d3; border-style: outset; width:160px">
-  </div>
 
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">Advanced Machine Intelligence Lab</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">May 2023 - July 2023</span>
-    </p>
-    Researcher
-    <div style="color:#7a7a7a">
-      <ul>
-		<li> Authored a comprehensive <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">survey</a> on VQA.</li>
-	  </ul>
+<h2 class="section-title">Industry Experience</h2>
+
+<div class="experience-item">
+    <div class="experience-logo">
+        <img src="../images/yaana.jpg" alt="Yaana Technologies">
     </div>
-  </div>
+    <div class="experience-content">
+        <div class="experience-header">
+            <span class="experience-title">Yaana Technologies, LLC</span>
+            <span class="experience-date">Sep 2023 -</span>
+        </div>
+        <div class="experience-role">Research Intern</div>
+        <div class="experience-details">
+            <ul>
+                <li>Private Retrieval Augmented Generation (RAG) system for telecom domain.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="experience-item">
+    <div class="experience-logo">
+        <img src="../images/penta.jpg" alt="Penta Global">
+    </div>
+    <div class="experience-content">
+        <div class="experience-header">
+            <span class="experience-title">Penta Global Limited</span>
+            <span class="experience-date">May 2023 - Aug 2023</span>
+        </div>
+        <div class="experience-role">AI Researcher</div>
+        <div class="experience-details">
+            <ul>
+                <li>Led projects on Bangla information retrieval and back-transliteration systems.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="experience-item">
+    <div class="experience-logo">
+        <img src="../images/amir.jpeg" alt="AMIR Lab">
+    </div>
+    <div class="experience-content">
+        <div class="experience-header">
+            <span class="experience-title">Advanced Machine Intelligence Lab</span>
+            <span class="experience-date">May 2023 - July 2023</span>
+        </div>
+        <div class="experience-role">Researcher</div>
+        <div class="experience-details">
+            <ul>
+                <li>Authored a comprehensive <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">survey</a> on VQA.</li>
+            </ul>
+        </div>
+    </div>
 </div>
