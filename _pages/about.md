@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,16 +35,15 @@ redirect_from:
 
         .justified-text-para {
             text-align: justify;
-            font-size: 16px; 
+            font-size: 16px;
         }
 
     </style>
-    
 
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's degree from IUT-CSE.<br><br>Currently, I am exploring domain adaptation and continual learning for Vision-Language Models (VLMs), specifically its application in computer use. Broadly speaking, my research interests span:
+Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I'm currently working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's degree from IUT-CSE.<br><br>Currently, I am exploring domain adaptation and continual learning for Vision-Language Models (VLMs), specifically its application in computer use. Broadly speaking, my research interests span:
 </p>
 <ul>
   <li>Continual & Lifelong learning for VLMs</li>
@@ -57,7 +57,7 @@ Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as 
   <li>Multimodal Adaptation & Transfer Learning</li>
 </ul>
 <h2>News and Updates</h2>
-<div class="news-container" style="max-height: 180px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0;">
+<div class="news-container" style="max-height: 180px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 40px; scrollbar-width: thin; scrollbar-color: #888 #f0f0f0;">
 <style>
 .news-container::-webkit-scrollbar {
     width: 8px;
@@ -98,6 +98,7 @@ Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as 
 <h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
 
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
+
 <body>
 <button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf">Paper</a></button>
     <button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf">Supp</a></button>  
@@ -125,6 +126,7 @@ Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as 
 
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
+
 <body>
 <button class="transparent-button" onclick="window.location.href='https://aclanthology.org/2024.findings-emnlp.859.pdf'"><a href="https://aclanthology.org/2024.findings-emnlp.859.pdf">Paper</a></button>
     <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'"><a href="https://github.com/farhanishmam/BanglaTLit">Code</a></button>
@@ -148,6 +150,7 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
 <h3>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h3>
 
 <b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
+
 <body>
 <button class="transparent-button" onclick="window.location.href='https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484'">
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484"> Information Fusion 2024 </a>
@@ -164,8 +167,6 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
     <li> New taxonomy that systematically categorizes VQA literature and multimodal learning tasks. </li>
     <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
 </ul>
-
-
 
 <!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
 
