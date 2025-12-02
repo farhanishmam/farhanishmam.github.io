@@ -49,3 +49,9 @@
   padding: 6px 0;
   color: #888;
 }
+
+/* Hide sitemap link in footer */
+.page__footer a[href="/sitemap/"],
+.page__footer a[href*="sitemap"] {
+  display: none !important;
+}
