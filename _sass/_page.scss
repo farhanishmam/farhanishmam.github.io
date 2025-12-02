@@ -11,17 +11,20 @@
   animation-delay: 0.35s;
 
   @media screen and (min-width: 1024px) {
-    margin-left: 0;
-    padding-left: 0;
-    max-width: none;
+    margin-left: 180px !important;
+    padding-left: 15px !important;
+    padding-right: 1em;
+    max-width: none !important;
+    width: auto !important;
   }
 }
 
 .page {
   @media screen and (min-width: 1024px) {
-    margin-left: 175px;
-    padding-left: 15px;
-    padding-right: 2em;
+    margin-left: 0 !important;
+    padding-left: 0;
+    padding-right: 1em;
+    max-width: none !important;
   }
 
   .page__inner-wrap {
