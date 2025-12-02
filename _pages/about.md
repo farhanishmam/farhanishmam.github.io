@@ -117,17 +117,12 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
   <li class="news-item"><strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted at Information Fusion.</li>
 </ul>
 <h2>Research Highlights</h2>
-<h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
+<h3>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</h3>
 
-<b>Md Farhan Ishmam*</b>, Ishmam Tashdeed*, Talukder Asir Saadat*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
+Md Fahim*, <b>Farhan Ishmam*</b>, Mir Sazzat Hossain, M Ashraful Amin, Amin Ahsan Ali, AKM Mahbubur Rahman<br>
 
 <p>
-  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
-  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
-  <a class="transparent-button" href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" target="_blank" rel="noopener">Code</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view" target="_blank" rel="noopener">Poster</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view" target="_blank" rel="noopener">Slides</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view" target="_blank" rel="noopener">Video</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
@@ -135,59 +130,10 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 </div>
 
 <ul style="font-size: 16px;">
-  <li>Can VQA models maintain their performance in real-world scenarios, especially when prone to realistic visual corruptions, e.g. noise, blur?</li>
-  <li>How can we evaluate the robustness of VQA models when subjected to such common corruptions?</li>
-  <li>We propose a large-scale benchmark and robustness evaluation metrics to evaluate VQA models before deployment.</li>
-  <li>We quantify aspects of performance drop, e.g. rate, range, mean. We found that models with higher accuracy are not necessarily more robust. </li>
-<!--     <li>Large-scale benchmark comprising 213,000 augmented images to challenge the robustness of VQA models against realistic visual corruptions.</li>
-    <li>Novel robustness evaluation metrics that can be aggregated into a unified metric adaptable for multiple use cases.</li>
-    <li>Experiments reveal the interplay between factors, such as model size, performance, and robustness, when subjected to real-world corruption effects.</li> -->
-</ul>
-
-<h3>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</h3>
-
-Md Fahim*, Fariha Tanjim Shifat*, <b>Md Farhan Ishmam*</b>, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
-<br>
-
-<p>
-  <a class="transparent-button" href="https://aclanthology.org/2024.findings-emnlp.859.pdf" target="_blank" rel="noopener">Paper</a>
-  <a class="transparent-button" href="https://github.com/farhanishmam/BanglaTLit" target="_blank" rel="noopener">Code</a>
-  <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BanglaTLit" target="_blank" rel="noopener">Dataset</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view" target="_blank" rel="noopener">Poster</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view" target="_blank" rel="noopener">Slides</a>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view" target="_blank" rel="noopener">Video</a>
-</p>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
-    <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
-    <img src="images/tLit.png" style="border: 2px solid black; max-width: 60%; height: auto;">
-</div>
-
-<ul style="font-size: 16px;">
-    <li> How can we enhance the representation of Romanized Bangla for automatic back-transliteration using seq2seq models?</li>
-    <li> We propose large-scale pre-training corpus and Bangla back-transliteration datasets for fully fine-tuning language encoders and seq2seq models.</li>
-    <li> We aggregate representations from transliterated Bangla encoders with seq2seq models [Dual Encoders->Aggregation->Decoder architecture] to achieve SOTA on Bangla back-transliteration.</li>
-</ul>
-
-<h3>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</h3>
-
-<b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
-
-<p>
-  <a class="transparent-button" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">
-    Information Fusion 2024
-  </a>
-</p>
-
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
-    <img src="images/vqaOverview.PNG" style="border: 2px solid black; max-width: 50%; height: 85%;  margin-right: 10px;">
-    <img src="images/vqaApp.PNG" style="border: 2px solid black; max-width: 50%; height: auto;">
-</div>
-
-<ul style="font-size: 16px;">
-    <li> Comprehensive survey on VQA datasets, methods, metrics, challenges, and research opportunities. </li>
-    <li> New taxonomy that systematically categorizes VQA literature and multimodal learning tasks. </li>
-    <li> Novel real-world applications of VQA in domains e.g. assistive technology, education, and healthcare. </li>
+  <li>Vision-Language Models (VLMs) like CLIP excel at zero-shot classification but struggle with few-shot learning and cross-domain generalization.</li>
+  <li>We propose R-MMA (Recurrent Multi-Modal Adapters), a novel adapter architecture that enhances VLMs for few-shot and cross-domain tasks.</li>
+  <li>R-MMA uses recurrent connections to iteratively refine features, improving adaptation with limited data.</li>
+  <li>Our method achieves state-of-the-art results on multiple benchmarks, demonstrating superior few-shot learning and cross-domain generalization capabilities.</li>
 </ul>
 
 <!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
