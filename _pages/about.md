@@ -80,19 +80,7 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I'm currently working as a lecturer at <a href="https://cse.iutoic-dhaka.edu/">IUT-CSE</a> and a part-time research intern at <a href="https://www.yaanatech.com/">Yaana Technologies</a>. Prior to that, I obtained my Bachelor's degree from IUT-CSE.<br><br>Currently, I am exploring domain adaptation and continual learning for Vision-Language Models (VLMs), specifically its application in computer use. Broadly speaking, my research interests span:
-</p>
-<ul>
-  <li>Continual & Lifelong learning for VLMs</li>
-  
-  <!-- <p class="justified-text"> How can we quickly adapt </p> -->
- 
-  <li>Agent-centric Benchmarks</li>
-  
-  <!-- <p class="justified-text"> Addressing Western bias and under-represented cultures in NLP; language-specific challenges, especially in script-mixing and language-mixing settings; enhancing low-resource languages using cross-lingual data.</p>]-->
-  
-  <li>Multimodal Adaptation & Transfer Learning</li>
-</ul>
+Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's degree from IUT-CSE. Currently, I am working on web agents with <a href = "http://kennethmarino.com/">Prof. Kenneth Marino</a>.
 <h2>News and Updates</h2>
 <ul class="news-container">
   <li class="news-item"><strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</li>
