@@ -19,6 +19,7 @@ redirect_from:
             border: 1px solid #3498db;
             color: #3498db;
             padding: 6px 14px;
+            margin-top: 6px; /* add breathing room above buttons */
             font-size: 12px;
             font-weight: 500;
             cursor: pointer;
