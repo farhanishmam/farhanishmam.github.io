@@ -94,20 +94,20 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I'm currently working as a
   <li>Multimodal Adaptation & Transfer Learning</li>
 </ul>
 <h2>News and Updates</h2>
-<div class="news-container">
-<div class="news-item">- <strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</div>
-<div class="news-item">- <strong>Aug 25:</strong> Started my PhD at the University of Utah!</div>
-<div class="news-item">- <strong>June 25:</strong> <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, got accepted in ECML-PKDD'25!</div>
-<div class="news-item">- <strong>March 25: Attended WACV'25.</div>
-<div class="news-item">- <strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL'25!</div>
-<div class="news-item">- <strong>Oct 24:</strong> <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV'25. I'm grateful to my wonderful teammates and advisors at IUT-CSE.</div>
-<div class="news-item">- <strong>Oct 24:</strong> <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in <a href="https://sites.google.com/view/neurips2024-ftw">FITML</a> at NeurIPS'24. Shoutout to my teammate <a href="https://www.imranabdullah.com/about">Abdullah Al Imran</a>.</div>
-<div class="news-item">- <strong>Sep 24:</strong> Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!</div>
-<div class="news-item">- <strong>Jul 24:</strong> New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv.</div>
-<div class="news-item">- <strong>May 24:</strong> Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!</div>
-<div class="news-item">- <strong>May 24:</strong> Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.</div>
-<div class="news-item">- <strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.</div>
-</div>
+<ul class="news-container">
+  <li class="news-item"><strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</li>
+  <li class="news-item"><strong>Aug 25:</strong> Started my PhD at the University of Utah!</li>
+  <li class="news-item"><strong>June 25:</strong> <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, got accepted in ECML-PKDD'25!</li>
+  <li class="news-item"><strong>March 25:</strong> Attended WACV'25.</li>
+  <li class="news-item"><strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL'25!</li>
+  <li class="news-item"><strong>Oct 24:</strong> <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV'25. I'm grateful to my wonderful teammates and advisors at IUT-CSE.</li>
+  <li class="news-item"><strong>Oct 24:</strong> <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted in <a href="https://sites.google.com/view/neurips2024-ftw">FITML</a> at NeurIPS'24. Shoutout to my teammate <a href="https://www.imranabdullah.com/about">Abdullah Al Imran</a>.</li>
+  <li class="news-item"><strong>Sep 24:</strong> Our work on Bangla back-transliteration, <a href="https://github.com/farhanishmam/BanglaTLit">BanglaTLit</a> got accepted in Findings of EMNLP, 2024. Great work from team Penta!</li>
+  <li class="news-item"><strong>Jul 24:</strong> New preprint on my undergrad thesis, <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a>, is available on arXiv.</li>
+  <li class="news-item"><strong>May 24:</strong> Finalists at Robi Datathon 3.0, Bangladesh's largest data analysis event with 3,500+ participants. Another competition with team Penta!</li>
+  <li class="news-item"><strong>May 24:</strong> Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.</li>
+  <li class="news-item"><strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted in Information Fusion.</li>
+</ul>
 <h2>Research Highlights</h2>
 <h3>Visual Robustness Benchmark for Visual Question Answering (VQA)</h3>
 
