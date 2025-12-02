@@ -126,15 +126,10 @@ Md Fahim*, <b>Farhan Ishmam*</b>, Mir Sazzat Hossain, M Ashraful Amin, Amin Ahsa
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-    <img src="images/overviewVRE.png" style="border: 2px solid black;">
+    <img src="images/overviewRMMA.PNG" style="border: 2px solid black;">
 </div>
 
-<ul style="font-size: 16px;">
-  <li>Vision-Language Models (VLMs) like CLIP excel at zero-shot classification but struggle with few-shot learning and cross-domain generalization.</li>
-  <li>We propose R-MMA (Recurrent Multi-Modal Adapters), a novel adapter architecture that enhances VLMs for few-shot and cross-domain tasks.</li>
-  <li>R-MMA uses recurrent connections to iteratively refine features, improving adaptation with limited data.</li>
-  <li>Our method achieves state-of-the-art results on multiple benchmarks, demonstrating superior few-shot learning and cross-domain generalization capabilities.</li>
-</ul>
+<strong>tldr.</strong> A multi-modal adapter that uses attention and shares weight across layers to improve few-shot generalization.
 
 <!-- # Add two spaces after writing the title to go new line and two spaces before the new line. -->
 
