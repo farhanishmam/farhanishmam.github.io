@@ -61,6 +61,13 @@ redirect_from:
             scrollbar-color: #888 #f0f0f0;
         }
 
+        @media screen and (min-width: 1024px) {
+            .news-container {
+                max-width: 900px;
+                margin-left: 0;
+            }
+        }
+
         .news-container::-webkit-scrollbar {
             width: 8px;
         }
