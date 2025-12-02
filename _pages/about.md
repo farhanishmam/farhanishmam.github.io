@@ -14,19 +14,31 @@ redirect_from:
     <title>Transparent Button</title>
     <style>
         .transparent-button {
+            display: inline-block;
             background-color: transparent;
-            border: 2px solid #3498db;
+            border: 1px solid #3498db;
             color: #3498db;
-            padding: 5px 15px;
+            padding: 6px 14px;
             font-size: 12px;
+            font-weight: 500;
             cursor: pointer;
-            border-radius: 5px;
-            transition: all 0.3s ease;
+            border-radius: 999px;
+            text-decoration: none;
+            line-height: 1.4;
+            transition:
+                background-color 0.2s ease,
+                color 0.2s ease,
+                box-shadow 0.2s ease,
+                transform 0.2s ease,
+                border-color 0.2s ease;
         }
 
         .transparent-button:hover {
             background-color: #3498db;
-            color: white;
+            color: #ffffff;
+            border-color: #3498db;
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4);
+            transform: translateY(-1px);
         }
 
         .justified-text {
@@ -43,7 +55,7 @@ redirect_from:
             overflow-y: auto;
             border: 1px solid #e0e0e0;
             border-radius: 8px;
-            padding: 12px 16px;
+            padding: 12px 24px 12px 36px; /* extra left padding for bullets */
             margin-bottom: 40px;
             scrollbar-width: thin;
             scrollbar-color: #888 #f0f0f0;
@@ -101,14 +113,14 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
 <b>Md Farhan Ishmam</b>\*, Ishmam Tashdeed\*, Talukder Asir Saadat\*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain <br>
 
-<body>
-<button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf">Paper</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf'"><a href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf">Supp</a></button>  
-  <button class="transparent-button" onclick="window.location.href='https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark'"><a href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark">Code</a></button>
-   <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view'"><a href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view">Poster</a></button>
-  <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view'"><a href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view">Slides</a></button>
-  <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view'"><a href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view">Video</a></button>
-</body>
+<p>
+  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
+  <a class="transparent-button" href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" target="_blank" rel="noopener">Code</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view" target="_blank" rel="noopener">Poster</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view" target="_blank" rel="noopener">Slides</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view" target="_blank" rel="noopener">Video</a>
+</p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
     <img src="images/overviewVRE.png" style="border: 2px solid black;">
@@ -129,14 +141,14 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta Barua, Fabiha Haider, Md Sakib Ul Rahman Sourove, Farhad Alam Bhuiyan
 <br>
 
-<body>
-<button class="transparent-button" onclick="window.location.href='https://aclanthology.org/2024.findings-emnlp.859.pdf'"><a href="https://aclanthology.org/2024.findings-emnlp.859.pdf">Paper</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://github.com/farhanishmam/BanglaTLit'"><a href="https://github.com/farhanishmam/BanglaTLit">Code</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://huggingface.co/datasets/aplycaebous/BanglaTLit'"><a href="https://huggingface.co/datasets/aplycaebous/BanglaTLit">Dataset</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view'"><a href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view">Poster</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view'"><a href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view">Slides</a></button>
-    <button class="transparent-button" onclick="window.location.href='https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view'"><a href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view">Video</a></button>
-</body>
+<p>
+  <a class="transparent-button" href="https://aclanthology.org/2024.findings-emnlp.859.pdf" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://github.com/farhanishmam/BanglaTLit" target="_blank" rel="noopener">Code</a>
+  <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BanglaTLit" target="_blank" rel="noopener">Dataset</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view" target="_blank" rel="noopener">Poster</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view" target="_blank" rel="noopener">Slides</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view" target="_blank" rel="noopener">Video</a>
+</p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
     <img src="images/tLitOverview.PNG" style="border: 2px solid black; max-width: 38%; height: 76%; margin-right: 10px;">
@@ -153,11 +165,11 @@ Md Fahim\*, Fariha Tanjim Shifat\*, <b>Md Farhan Ishmam</b>\*, Deeparghya Dutta 
 
 <b>Md Farhan Ishmam</b>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey <br>
 
-<body>
-<button class="transparent-button" onclick="window.location.href='https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484'">
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484"> Information Fusion 2024 </a>
-</button>
-</body>
+<p>
+  <a class="transparent-button" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">
+    Information Fusion 2024
+  </a>
+</p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px; margin-bottom: 10px; width: 100%;">
     <img src="images/vqaOverview.PNG" style="border: 2px solid black; max-width: 50%; height: 85%;  margin-right: 10px;">

@@ -15,26 +15,12 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
-    width: 185px;                   // Fixed width when sidebar is fixed
+    width: 180px;
     left: 0;
     padding-left: 1em;
-  }
-
-  @include breakpoint($large) {
-    opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  @include breakpoint($x-large) {
-    width: $sidebar-link-max-width;
     padding-right: 0;
   }
 

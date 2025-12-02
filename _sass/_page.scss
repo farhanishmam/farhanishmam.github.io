@@ -3,7 +3,6 @@
    ========================================================================== */
 
 #main {
-  @include container;
   @include clearfix;
   margin-top: 2em;
   padding-left: 1em;
@@ -11,16 +10,18 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+  @media screen and (min-width: 1024px) {
+    margin-left: 0;
+    padding-left: 0;
+    max-width: none;
   }
 }
 
 .page {
   @media screen and (min-width: 1024px) {
-    margin-left: 195px;
-    padding-left: 20px;
-    padding-right: 1em;
+    margin-left: 190px;
+    padding-left: 10px;
+    padding-right: 2em;
   }
 
   .page__inner-wrap {
