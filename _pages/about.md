@@ -81,6 +81,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I'm currently working as a
     border-bottom: none;
 }
 </style>
+<div>
 <div class="news-item">- <strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</div>
 <div class="news-item">- <strong>Aug 25:</strong> Started my PhD at the University of Utah!</div>
 <div class="news-item">- <strong>June 25:</strong> <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, got accepted in ECML-PKDD'25!</div>
