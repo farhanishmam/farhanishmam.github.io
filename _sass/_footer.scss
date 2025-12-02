@@ -14,14 +14,14 @@
   bottom: 0em;
   height: auto;
   /* sticky footer fix end */
-  margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
+  margin-top: 1em;
+  color: #666;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: transparent;
+  border-top: none;
 
   footer {
     @include clearfix;
@@ -29,11 +29,7 @@
     margin-right: auto;
     margin-top: 0;
     max-width: 100%;
-    padding: 0.5em 1em;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+    padding: 0;
   }
 
   a {
@@ -44,49 +40,12 @@
       text-decoration: underline;
     }
   }
-
-  .fas,
-  .fab,
-  .far,
-  .fal {
-    color: mix(#fff, $gray, 25%);
-  }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
-}
-
-.page__footer-follow {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-  }
-
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
-  a {
-    padding-right: 10px;
-    font-weight: bold;
-  }
-
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
-  }
+  font-size: $type-size-8;
+  text-align: center;
+  padding: 6px 0;
+  color: #888;
 }

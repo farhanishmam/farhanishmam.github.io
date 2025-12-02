@@ -82,6 +82,8 @@ Hi, I'm Farhan, an incoming PhD student at KSoC, UofU. I'm currently working as 
 }
 </style>
 <div class="news-item">- <strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!</div>
+<div class="news-item">- <strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!</div>
+<div class="news-item">- <strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted in Findings of NAACL, 2025!</div>
 <div class="news-item">- <strong>Dec 24:</strong> <a href="https://arxiv.org/abs/2408.08964">BnSentMix</a>, got accepted in <a href="https://loreslm.github.io/">LoResLM</a> at COLING 2025!</div>
 <div class="news-item">- <strong>Oct 24:</strong> <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV 2025. I'm grateful to my wonderful teammates and advisors at IUT-CSE.</div>
 <div class="news-item">- <strong>Oct 24:</strong> Check out our pre-prints on Bangla VQA system, <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, and multi-label hate speech detection on transliterated Bangla, <a href="https://arxiv.org/abs/2410.13281">BanTH</a>.</div>
