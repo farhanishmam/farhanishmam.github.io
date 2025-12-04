@@ -118,9 +118,6 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 </ul>
 <h2>Research Highlights</h2>
 <h3>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</h3>
-
-Md Fahim*, <b>Farhan Ishmam*</b>, Mir Sazzat Hossain, M Ashraful Amin, Amin Ahsan Ali, AKM Mahbubur Rahman<br>
-
 <p>
   <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
 </p>
