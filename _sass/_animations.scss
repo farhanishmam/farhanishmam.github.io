@@ -65,3 +65,8 @@
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
+/* hide gallery nav arrows */
+.mfp-arrow {
+  display: none !important;
+}
