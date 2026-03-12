@@ -103,14 +103,14 @@ redirect_from:
 Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's degree from <a href = "https://cse.iutoic-dhaka.edu">IUT-CSE</a>. Currently, I am working on web agents with <a href = "http://kennethmarino.com/">Prof. Kenneth Marino</a>.
 <h2>News and Updates</h2>
 <ul class="news-container">
-  <li class="news-item"><strong>March 25:</strong> Check out <a href="https://timewarp-web.github.io/">TimeWarp</a>, a web agent benchmark on changing websites.</li>
+  <li class="news-item"><strong>Mar 25:</strong> Check out <a href="https://timewarp-web.github.io/">TimeWarp</a>, a web agent benchmark on changing websites.</li>
   <li class="news-item"><strong>Feb 25:</strong> Our <a href="https://iclr-blogposts.github.io/2026/blog/2026/web-agent/">computer use survey</a> got accepted in the ICLR'26 Blogposts.</li>
   <li class="news-item"><strong>Dec 25:</strong> <a href="https://aclanthology.org/2025.banglalp-1.27/"> Transliteration Perturbations in Bangla </a> won the best paper award at BLP at IJCNLP-AACL'25! </li>
   <li class="news-item"><strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</li>
-  <li class="news-item"><strong>Oct 25:</strong>   </li>
+  <li class="news-item"><strong>Oct 25:</strong> <a href="https://frugalprompt.github.io/">FrugalPrompt</a> is out! </li>
   <li class="news-item"><strong>Aug 25:</strong> Started my PhD at the University of Utah!</li>
   <li class="news-item"><strong>June 25:</strong> <a href="https://arxiv.org/abs/2410.14991">ChitroJera</a>, got accepted at ECML-PKDD'25!</li>
-  <li class="news-item"><strong>March 25:</strong> Attended WACV'25.</li>
+  <li class="news-item"><strong>Mar 25:</strong> Attended WACV'25.</li>
   <li class="news-item"><strong>Jan 25:</strong> <a href="https://arxiv.org/abs/2410.13281">BanTH</a>, got accepted at Findings of NAACL'25!</li>
   <li class="news-item"><strong>Oct 24:</strong> <a href="https://arxiv.org/abs/2407.03386">Visual Robustness Benchmark for VQA</a> is accepted at WACV'25. I'm grateful to my wonderful teammates and advisors at IUT-CSE.</li>
   <li class="news-item"><strong>Oct 24:</strong> <a href="https://github.com/farhanishmam/BanglaTLit">FourierKAN outperforms MLP on Text Classification Head Fine-tuning</a> got accepted at <a href="https://sites.google.com/view/neurips2024-ftw">FITML</a> at NeurIPS'24. Shoutout to my teammate <a href="https://www.imranabdullah.com/about">Abdullah Al Imran</a>.</li>
