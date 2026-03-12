@@ -123,8 +123,8 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
   <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
 </p>
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-    <img src="images/overviewRMMA.PNG" style="border: 2px solid black;">
+<div style="margin: 16px 0;">
+    <img src="images/overviewRMMA.PNG" style="width: 100%; display: block; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.10);">
 </div>
 
 <strong>tldr.</strong> A multi-modal adapter that uses attention and shares weight across layers to improve few-shot generalization.
