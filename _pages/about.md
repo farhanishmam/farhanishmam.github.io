@@ -100,7 +100,7 @@ redirect_from:
 </head>
 </html>
 <p class="justified-text">
-Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's degree from IUT-CSE. Currently, I am working on web agents with <a href = "http://kennethmarino.com/">Prof. Kenneth Marino</a>.
+Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's degree from <a href = "https://cse.iutoic-dhaka.edu">IUT-CSE</a>. Currently, I am working on web agents with <a href = "http://kennethmarino.com/">Prof. Kenneth Marino</a>.
 <h2>News and Updates</h2>
 <ul class="news-container">
   <li class="news-item"><strong>Nov 25:</strong> 3 of my works got accepted at WACV'26!</li>
