@@ -76,7 +76,7 @@ $(document).ready(function(){
     tLoading: 'Loading image #%curr%...',
     gallery: {
       enabled: true,
-      navigateByImgClick: true,
+      navigateByImgClick: false,
       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
     },
     image: {
@@ -93,6 +93,7 @@ $(document).ready(function(){
       }
     },
     closeOnContentClick: true,
+    closeOnBgClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
