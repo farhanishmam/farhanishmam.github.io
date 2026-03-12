@@ -80,6 +80,57 @@ author_profile: false
           min-width: 0;
       }
 
+      /* ── Paper image / placeholder ── */
+      .pub-img-wrap {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 12px;
+      }
+
+      .pub-img-wrap .section-item {
+          flex: 1;
+          min-width: 0;
+          margin-bottom: 0;
+      }
+
+      .pub-img-wrap img {
+          width: 180px;
+          max-height: 210px;
+          object-fit: cover;
+          border-radius: 6px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+          display: block;
+          flex-shrink: 0;
+      }
+
+      .pub-img-placeholder {
+          width: 180px;
+          height: 210px;
+          flex-shrink: 0;
+          background: linear-gradient(135deg, #f5f6f7 0%, #eaecee 100%);
+          border-radius: 6px;
+          border: 1px dashed #ccc;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          color: #bbb;
+      }
+
+      .pub-img-placeholder svg {
+          width: 36px;
+          height: 36px;
+          opacity: 0.4;
+      }
+
+      .pub-img-placeholder span {
+          font-size: 0.68em;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+      }
+
       /* ── Paper cards ── */
       .transparent-button {
           display: inline-block;
@@ -133,6 +184,10 @@ author_profile: false
       .pub-section:first-child .section-title {
           margin-top: 0;
       }
+
+      .author-name {
+          color: navy;
+      }
   </style>
 
 </head>
@@ -160,164 +215,247 @@ The full list of articles is available on my <a href="https://scholar.google.com
     <div class="pub-section" id="agentic-systems">
       <h2 class="section-title">Agentic Systems</h2>
 
-      <div class="section-item">
-          <strong>TimeWarp: Evaluating Web Agents by Revisiting the Past</strong><br>
-          <em><a href="https://arxiv.org/abs/2603.04949">ArXiv'26</a></em><br>
-          <strong>Md Farhan Ishmam</strong>, Kenneth Marino<br>
-          <a class="transparent-button" href="https://timewarp-web.github.io/" target="_blank" rel="noopener">Project Page</a>
-          <a class="transparent-button" href="https://arxiv.org/abs/2603.04949" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/sparklabutah/timewarp" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://huggingface.co/datasets/sparklabutah/timewarp" target="_blank" rel="noopener">Dataset</a>
-          <a class="transparent-button" href="https://huggingface.co/collections/sparklabutah/timewarp-models" target="_blank" rel="noopener">Models</a>
+      <div class="pub-img-wrap">
+          <a href="/images/timeWarp.png" style="flex-shrink: 0;">
+              <img src="/images/timeWarp.png" alt="TimeWarp paper figure">
+          </a>
+          <div class="section-item">
+              <strong>TimeWarp: Evaluating Web Agents by Revisiting the Past</strong><br>
+              <em><a href="https://arxiv.org/abs/2603.04949">ArXiv'26</a></em><br>
+              <strong class="author-name">Md Farhan Ishmam</strong>, Kenneth Marino<br>
+              <a class="transparent-button" href="https://timewarp-web.github.io/" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2603.04949" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/sparklabutah/timewarp" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://huggingface.co/datasets/sparklabutah/timewarp" target="_blank" rel="noopener">Dataset</a>
+              <a class="transparent-button" href="https://huggingface.co/collections/sparklabutah/timewarp-models" target="_blank" rel="noopener">Models</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>Computer Use Survey - A Visual Survey of Computer Use Agents</strong><br>
-          <em><a href="https://iclr-blogposts.github.io/2026/">ICLR'26 Blogposts</a></em><br>
-          Kenneth Marino, <strong>Md Farhan Ishmam</strong>, and Ana Marasovic<br>
-          <a class="transparent-button" href="https://iclr-blogposts.github.io/2026/blog/2026/web-agent/" target="_blank" rel="noopener">Blog</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Computer Use Survey - A Visual Survey of Computer Use Agents</strong><br>
+              <em><a href="https://iclr-blogposts.github.io/2026/">ICLR'26 Blogposts</a></em><br>
+              Kenneth Marino, <strong class="author-name">Md Farhan Ishmam</strong>, and Ana Marasovic<br>
+              <a class="transparent-button" href="https://iclr-blogposts.github.io/2026/blog/2026/web-agent/" target="_blank" rel="noopener">Blog</a>
+          </div>
       </div>
     </div>
 
     <div class="pub-section" id="vision-language-adapters">
       <h2 class="section-title">Vision-Language Adapters</h2>
 
-      <div class="section-item">
-          <strong>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</strong><br>
-          <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
-          Md Fahim*, <strong>Farhan Ishmam*</strong>, Mir Sazzat Hossain, M Ashraful Amin, Amin Ahsan Ali, AKM Mahbubur Rahman<br>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</strong><br>
+              <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
+              Md Fahim*, <strong class="author-name">Md Farhan Ishmam*</strong>, Mir Sazzat Hossain, M Ashraful Amin, Amin Ahsan Ali, AKM Mahbubur Rahman<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
+          </div>
       </div>
     </div>
 
     <div class="pub-section" id="vqa">
       <h2 class="section-title">Visual Question Answering (VQA)</h2>
 
-      <div class="section-item">
-          <strong>Enhancing Vision Language Corruption Robustness using Cross Distribution & Prompted Denoisers</strong><br>
-          <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
-          Sameer Shafayet Latif*, Sadab Shiper*, K. M. Rahiduzzaman Kiran*, <strong>Md Farhan Ishmam*</strong>, Md Azam Hossain, Abu Raihan Mostofa Kamal, Md Hamjajul Ashmafee<br>
-          <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/papers/Fahim_R-MMA_Enhancing_Vision-Language_Models_with_Recurrent_Adapters_for_Few-Shot_and_WACV_2026_paper.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/supplemental/Fahim_R-MMA_Enhancing_Vision-Language_WACV_2026_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/VLMDenoising" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1qwGamel7X5N0R3prL2zec34EmWkUhHd4/view?pli=1" target="_blank" rel="noopener">Poster</a>
-          <a class="transparent-button" href="https://www.youtube.com/watch?v=aoflhsRlwK4" target="_blank" rel="noopener">Video</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Enhancing Vision Language Corruption Robustness using Cross Distribution & Prompted Denoisers</strong><br>
+              <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
+              Sameer Shafayet Latif*, Sadab Shiper*, K. M. Rahiduzzaman Kiran*, <strong class="author-name">Md Farhan Ishmam*</strong>, Md Azam Hossain, Abu Raihan Mostofa Kamal, Md Hamjajul Ashmafee<br>
+              <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/papers/Fahim_R-MMA_Enhancing_Vision-Language_Models_with_Recurrent_Adapters_for_Few-Shot_and_WACV_2026_paper.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/supplemental/Fahim_R-MMA_Enhancing_Vision-Language_WACV_2026_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/VLMDenoising" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1qwGamel7X5N0R3prL2zec34EmWkUhHd4/view?pli=1" target="_blank" rel="noopener">Poster</a>
+              <a class="transparent-button" href="https://www.youtube.com/watch?v=aoflhsRlwK4" target="_blank" rel="noopener">Video</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>BanglaProtha: Evaluating Vision Language Models in Underrepresented Long-tail Cultural Contexts</strong><br>
-          <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
-          Md Fahim*, Md Sakib Ul Rahman*, Akm Moshiur Rahman*, <strong>Md Farhan Ishmam*</strong>, Md Tasmim Rahman, Fariha Tanjim Shifat, Fabiha Haider, Md Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1btEw-N8Nvyf8YBwrmRAQ9WQMdah8yUgO/view" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/BanglaProtha" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>BanglaProtha: Evaluating Vision Language Models in Underrepresented Long-tail Cultural Contexts</strong><br>
+              <em><a href="https://wacv.thecvf.com/">WACV'26</a></em><br>
+              Md Fahim*, Md Sakib Ul Rahman*, Akm Moshiur Rahman*, <strong class="author-name">Md Farhan Ishmam*</strong>, Md Tasmim Rahman, Fariha Tanjim Shifat, Fabiha Haider, Md Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1btEw-N8Nvyf8YBwrmRAQ9WQMdah8yUgO/view" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/BanglaProtha" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>Visual Robustness Benchmark for Visual Question Answering (VQA)</strong><br>
-          <em><a href="https://wacv2025.thecvf.com/">WACV'25</a></em><br>
-          <strong>Md Farhan Ishmam*</strong>, Ishmam Tashdeed*, Talukder Asir Saadat*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain<br>
-          <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
-          <a class="transparent-button" href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view" target="_blank" rel="noopener">Poster</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view" target="_blank" rel="noopener">Slides</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view" target="_blank" rel="noopener">Video</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Visual Robustness Benchmark for Visual Question Answering (VQA)</strong><br>
+              <em><a href="https://wacv2025.thecvf.com/">WACV'25</a></em><br>
+              <strong class="author-name">Md Farhan Ishmam*</strong>, Ishmam Tashdeed*, Talukder Asir Saadat*, Md Hamjajul Ashmafee, Abu Raihan Mostofa Kamal, Md Azam Hossain<br>
+              <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/papers/Ishmam_Visual_Robustness_Benchmark_for_Visual_Question_Answering_VQA_WACV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2025/supplemental/Ishmam_Visual_Robustness_Benchmark_WACV_2025_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
+              <a class="transparent-button" href="https://github.com/ishmamt/VQA-Visual-Robustness-Benchmark" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1uT4KG9YW7o_VTsYtsaVcf4iAVyktl1e0/view" target="_blank" rel="noopener">Poster</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/17uBXQkbWralJ1le3nU0p1HUJ-nSjRrYf/view" target="_blank" rel="noopener">Slides</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1TZFlTdcHcKIKArEVZmUfWKVzNZRNxZh8/view" target="_blank" rel="noopener">Video</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>ChitroJera: A Regionally Relevant Visual Question Answering Dataset for Bangla</strong><br>
-          <em><a href="https://ecmlpkdd.org/2025/">ECML-PKDD'25</a></em><br>
-          Deeparghya Dutta Barua*, Md Sakib Ul Rahman Sourove*, <strong>Md Farhan Ishmam*</strong>, Fabiha Haider, Fariha Tanjim Shifat, Md Fahim, Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_1389.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/ChitroJera" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://www.kaggle.com/datasets/sourove/chitrojera" target="_blank" rel="noopener">Dataset</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1xXZxreFbMNOZeTfD8Oi6T3Uca5RbqMGC/view" target="_blank" rel="noopener">Poster</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1xVEzjP-g1vfDACBxog1RQzjycm3LxPZ1/view" target="_blank" rel="noopener">Slides</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>ChitroJera: A Regionally Relevant Visual Question Answering Dataset for Bangla</strong><br>
+              <em><a href="https://ecmlpkdd.org/2025/">ECML-PKDD'25</a></em><br>
+              Deeparghya Dutta Barua*, Md Sakib Ul Rahman Sourove*, <strong class="author-name">Md Farhan Ishmam*</strong>, Fabiha Haider, Fariha Tanjim Shifat, Md Fahim, Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_1389.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/ChitroJera" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://www.kaggle.com/datasets/sourove/chitrojera" target="_blank" rel="noopener">Dataset</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1xXZxreFbMNOZeTfD8Oi6T3Uca5RbqMGC/view" target="_blank" rel="noopener">Poster</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1xVEzjP-g1vfDACBxog1RQzjycm3LxPZ1/view" target="_blank" rel="noopener">Slides</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</strong><br>
-          <em><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion Journal</a></em> | <em>2024</em><br>
-          <strong>Md Farhan Ishmam</strong>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey<br>
-          <a class="transparent-button" href="https://www.sciencedirect.com/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://arxiv.org/abs/2311.00308" target="_blank" rel="noopener">ArXiv</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</strong><br>
+              <em><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion Journal</a></em> | <em>2024</em><br>
+              <strong class="author-name">Md Farhan Ishmam</strong>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey<br>
+              <a class="transparent-button" href="https://www.sciencedirect.com/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2311.00308" target="_blank" rel="noopener">ArXiv</a>
+          </div>
       </div>
     </div>
 
     <div class="pub-section" id="transliteration">
       <h2 class="section-title">Transliteration and Code-Mixing</h2>
 
-      <div class="section-item">
-          <strong>Robustness of LLMs to Transliteration Perturbations in Bangla</strong><br>
-          <em><a href="https://aclanthology.org/2025.banglalp-1.27.pdf">BLP@IJCNLP-AACL'25 (Best Paper)</a></em><br>
-          Fabiha Haider, <strong>Md Farhan Ishmam</strong>, Fariha Tanjim Shifat, Md Tasmim Rahman, Md Fahim, Md Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://aclanthology.org/2025.banglalp-1.27.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/BTL-Robustness" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Robustness of LLMs to Transliteration Perturbations in Bangla</strong><br>
+              <em><a href="https://aclanthology.org/2025.banglalp-1.27.pdf">BLP@IJCNLP-AACL'25 (Best Paper)</a></em><br>
+              Fabiha Haider, <strong class="author-name">Md Farhan Ishmam</strong>, Fariha Tanjim Shifat, Md Tasmim Rahman, Md Fahim, Md Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://aclanthology.org/2025.banglalp-1.27.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/BTL-Robustness" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</strong><br>
-          <em><a href="https://2024.emnlp.org/">EMNLP'24 Findings</a></em><br>
-          Md Fahim*, Fariha Tanjim Shifat*, Fabiha Haider*, Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, <strong>Md Farhan Ishmam</strong>, Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://aclanthology.org/2024.findings-emnlp.859.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/BanglaTLit" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BanglaTLit" target="_blank" rel="noopener">Dataset</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view" target="_blank" rel="noopener">Poster</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view" target="_blank" rel="noopener">Slides</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view" target="_blank" rel="noopener">Video</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</strong><br>
+              <em><a href="https://2024.emnlp.org/">EMNLP'24 Findings</a></em><br>
+              Md Fahim*, Fariha Tanjim Shifat*, Fabiha Haider*, Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, <strong class="author-name">Md Farhan Ishmam</strong>, Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://aclanthology.org/2024.findings-emnlp.859.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/BanglaTLit" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BanglaTLit" target="_blank" rel="noopener">Dataset</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1o3yzO-N7J2nj04b6pfGSv0WlCcQODW2S/view" target="_blank" rel="noopener">Poster</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1Nv-mRwBcE0U3IbDSUjiAy9XEdaXc5x1P/view" target="_blank" rel="noopener">Slides</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1MUZYADGQQl8OA9Z3BYTBJz96cE8p8C1D/view" target="_blank" rel="noopener">Video</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla</strong><br>
-          <em><a href="https://2025.naacl.org/">NAACL'25 Findings</a></em><br>
-          Fabiha Haider*, Fariha Tanjim Shifat*, <strong>Md Farhan Ishmam*</strong>, Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Md Fahim, Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://arxiv.org/abs/2410.13281" target="_blank" rel="noopener">ArXiv</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/BanTH" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla</strong><br>
+              <em><a href="https://2025.naacl.org/">NAACL'25 Findings</a></em><br>
+              Fabiha Haider*, Fariha Tanjim Shifat*, <strong class="author-name">Md Farhan Ishmam*</strong>, Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Md Fahim, Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://arxiv.org/abs/2410.13281" target="_blank" rel="noopener">ArXiv</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/BanTH" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis</strong><br>
-          <em><a href="https://loreslm.github.io/">LoResLM@COLING'25</a></em><br>
-          Sadia Alam, <strong>Md Farhan Ishmam</strong>, Navid Hasin Alvee, Md Shahnewaz Siddique, Md Azam Hossain, Abu Raihan Mostofa Kamal<br>
-          <a class="transparent-button" href="https://aclanthology.org/2025.loreslm-1.4.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/Nishita2000/BnSentMix" target="_blank" rel="noopener">Code</a>
-          <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BnSentMix" target="_blank" rel="noopener">Dataset</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/12OeZDEZJUVym39iVnE4BLdGFss9HP9SO/view" target="_blank" rel="noopener">Poster</a>
-          <a class="transparent-button" href="https://drive.google.com/file/d/1Hn8a6jutymAhXzBIHhpWnZyf8M5upqLl/view" target="_blank" rel="noopener">Slides</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis</strong><br>
+              <em><a href="https://loreslm.github.io/">LoResLM@COLING'25</a></em><br>
+              Sadia Alam, <strong class="author-name">Md Farhan Ishmam</strong>, Navid Hasin Alvee, Md Shahnewaz Siddique, Md Azam Hossain, Abu Raihan Mostofa Kamal<br>
+              <a class="transparent-button" href="https://aclanthology.org/2025.loreslm-1.4.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/Nishita2000/BnSentMix" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BnSentMix" target="_blank" rel="noopener">Dataset</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/12OeZDEZJUVym39iVnE4BLdGFss9HP9SO/view" target="_blank" rel="noopener">Poster</a>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1Hn8a6jutymAhXzBIHhpWnZyf8M5upqLl/view" target="_blank" rel="noopener">Slides</a>
+          </div>
       </div>
     </div>
 
     <div class="pub-section" id="harmful-content">
       <h2 class="section-title">Harmful Content</h2>
 
-      <div class="section-item">
-          <strong>Penta NLP at EXIST 2024 Task 1–3: Sexism Identification, Source Intention, Sexism Categorization In Tweets</strong><br>
-          <em><a href="http://nlp.uned.es/exist2024/">EXIST@CLEF'24</a></em><br>
-          Fariha Tanjim Shifat, Fabiha Haider, Md Sakib Ul Rahman Sourove, Deeparghya Dutta Barua, <strong>Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://ceur-ws.org/Vol-3740/paper-114.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/Penta-Exist-2024" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Penta NLP at EXIST 2024 Task 1–3: Sexism Identification, Source Intention, Sexism Categorization In Tweets</strong><br>
+              <em><a href="http://nlp.uned.es/exist2024/">EXIST@CLEF'24</a></em><br>
+              Fariha Tanjim Shifat, Fabiha Haider, Md Sakib Ul Rahman Sourove, Deeparghya Dutta Barua, <strong class="author-name">Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://ceur-ws.org/Vol-3740/paper-114.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/Penta-Exist-2024" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
 
-      <div class="section-item">
-          <strong>Penta ML at EXIST 2024: Tagging Sexism in Online Multimodal Content With Attention-enhanced Modal Context</strong><br>
-          <em><a href="http://nlp.uned.es/exist2024/">EXIST@CLEF'24</a></em><br>
-          Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Fabiha Haider, Fariha Tanjim Shifat, <strong>Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
-          <a class="transparent-button" href="https://ceur-ws.org/Vol-3740/paper-90.pdf" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/farhanishmam/Penta-Exist-2024" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>Penta ML at EXIST 2024: Tagging Sexism in Online Multimodal Content With Attention-enhanced Modal Context</strong><br>
+              <em><a href="http://nlp.uned.es/exist2024/">EXIST@CLEF'24</a></em><br>
+              Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Fabiha Haider, Fariha Tanjim Shifat, <strong class="author-name">Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
+              <a class="transparent-button" href="https://ceur-ws.org/Vol-3740/paper-90.pdf" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishmam/Penta-Exist-2024" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
     </div>
 
     <div class="pub-section" id="accessibility">
       <h2 class="section-title">Accessibility Technology</h2>
 
-      <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
-          <a href="/images/bdslig.png" style="flex: 0 0 auto;">
-              <img src="/images/bdslig.png" alt="Prompting with Sign Language paper figure" style="width: 180px; max-height: 210px; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.10); display: block;">
+      <div class="pub-img-wrap">
+          <a href="/images/bdslig.png" style="flex-shrink: 0;">
+              <img src="/images/bdslig.png" alt="Prompting with Sign Language paper figure">
           </a>
-          <div class="section-item" style="flex: 1; min-width: 0; margin-bottom: 0;">
+          <div class="section-item">
               <strong>Prompting with Sign Parameters for Low-resource Sign Language Instruction Generation</strong><br>
               <em>CV4A11y@ICCV'25</em><br>
-              Md. Tariquzzaman, <strong>Md Farhan Ishmam</strong>, Saiyma Sittul Muna, Md Kamrul Hasan, Hasan Mahmud<br>
+              Md. Tariquzzaman, <strong class="author-name">Md Farhan Ishmam</strong>, Saiyma Sittul Muna, Md Kamrul Hasan, Hasan Mahmud<br>
               <a class="transparent-button" href="https://openreview.net/forum?id=KkVMBkjbra" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/tariquzzamanf/SPIP" target="_blank" rel="noopener">Code</a>
               <a class="transparent-button" href="https://huggingface.co/datasets/aplycaebous/BdSLIG" target="_blank" rel="noopener">Dataset</a>
@@ -328,12 +466,18 @@ The full list of articles is available on my <a href="https://scholar.google.com
     <div class="pub-section" id="text-classification">
       <h2 class="section-title">General Text Classification</h2>
 
-      <div class="section-item">
-          <strong>FourierKAN outperforms MLP on Text Classification Head Fine-tuning</strong><br>
-          <em><a href="https://sites.google.com/view/neurips2024-ftw/home">FITML@NeurIPS'24</a></em><br>
-          Abdullah Al Imran*, <strong>Md Farhan Ishmam*</strong><br>
-          <a class="transparent-button" href="https://openreview.net/pdf?id=xqNDuVxThU" target="_blank" rel="noopener">Paper</a>
-          <a class="transparent-button" href="https://github.com/abdalimran/FR-KAN-Text-Classification" target="_blank" rel="noopener">Code</a>
+      <div class="pub-img-wrap">
+          <div class="pub-img-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <span>No image</span>
+          </div>
+          <div class="section-item">
+              <strong>FourierKAN outperforms MLP on Text Classification Head Fine-tuning</strong><br>
+              <em><a href="https://sites.google.com/view/neurips2024-ftw/home">FITML@NeurIPS'24</a></em><br>
+              Abdullah Al Imran*, <strong class="author-name">Md Farhan Ishmam*</strong><br>
+              <a class="transparent-button" href="https://openreview.net/pdf?id=xqNDuVxThU" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/abdalimran/FR-KAN-Text-Classification" target="_blank" rel="noopener">Code</a>
+          </div>
       </div>
     </div>
 
