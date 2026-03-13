@@ -412,8 +412,8 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { id: 'VRB',  full: 'Visual Robustness Benchmark for Visual Question Answering (VQA)',                              tldr: 'A comprehensive benchmark for evaluating VQA model robustness to diverse visual perturbations.', topic: 'vqa',          venue: "WACV'25" },
         { id: 'CJ',   full: 'ChitroJera: A Regionally Relevant VQA Dataset for Bangla',                                   tldr: 'A regionally relevant VQA dataset capturing Bangla cultural context for evaluating vision-language models.', topic: 'vqa',          venue: "ECML-PKDD'25" },
         { id: 'VQS',  full: 'From Image to Language: A Critical Analysis of VQA Approaches, Challenges, and Opportunities',tldr: 'A comprehensive survey analyzing VQA approaches, datasets, challenges, and future research directions.', topic: 'vqa',          venue: "Information Fusion'24" },
-        { id: 'BTL',  full: 'Robustness of LLMs to Transliteration Perturbations in Bangla',                               tldr: 'Studying how robust LLMs are to transliteration perturbations in Bangla text processing tasks.', topic: 'translit',     venue: "BLP@AACL'25 🏆" },
-        { id: 'BLit', full: 'BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla',                tldr: 'A benchmark dataset for converting Romanized Bangla text back to native Bangla script.', topic: 'translit',     venue: "EMNLP'24 Findings" },
+        { id: 'TPB',  full: 'Robustness of LLMs to Transliteration Perturbations in Bangla',                               tldr: 'Studying how robust LLMs are to transliteration perturbations in Bangla text processing tasks.', topic: 'translit',     venue: "BLP@AACL'25 🏆" },
+        { id: 'BTL', full: 'BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla',                tldr: 'A benchmark dataset for converting Romanized Bangla text back to native Bangla script.', topic: 'translit',     venue: "EMNLP'24 Findings" },
         { id: 'BTH',  full: 'BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla',                tldr: 'A multi-label dataset for detecting hate speech in transliterated Bangla text.', topic: 'translit',     venue: "NAACL'25 Findings" },
         { id: 'BSM',  full: 'BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis',              tldr: 'A diverse code-mixed Bengali-English dataset for training and evaluating sentiment analysis models.', topic: 'translit',     venue: "LoResLM@COLING'25" },
         { id: 'SPIP', full: 'Prompting with Sign Parameters for Low-resource Sign Language Instruction Generation',        tldr: 'A prompting method using sign language parameters for generating instructions in low-resource settings.', topic: 'accessibility',venue: "CV4A11y@ICCV'25" },
@@ -426,9 +426,9 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { source: 'TW',  target: 'CUS'  },
         { source: 'VCD', target: 'VRB'  },
         { source: 'BP',  target: 'CJ'   },
-        { source: 'BTL', target: 'BLit' },
+        { source: 'TPB', target: 'BTL'  },
+        { source: 'TPB', target: 'BTH'  },
         { source: 'BTL', target: 'BTH'  },
-        { source: 'BLit',target: 'BTH'  },
         { source: 'PNL', target: 'PML'  },
         { source: 'VRB', target: 'VQS'  },
         { source: 'CJ',  target: 'VQS'  },
@@ -436,12 +436,13 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { source: 'VCD', target: 'VQS'  },
         { source: 'RMA', target: 'VCD'  },
         { source: 'RMA', target: 'BP'   },
-        { source: 'BLit',target: 'BSM'  },
+        { source: 'BTL', target: 'BSM'  },
         { source: 'BTH', target: 'BSM'  },
         { source: 'BTH', target: 'PNL'  },
+        { source: 'PML', target: 'BTH'  },
         { source: 'FP',  target: 'FKAN' },
-        { source: 'BP',  target: 'BTL'  },
-        { source: 'CJ',  target: 'BLit' }
+        { source: 'BP',  target: 'TPB'  },
+        { source: 'CJ',  target: 'BTL'  }
     ];
 
     var container = document.getElementById('research-map');
@@ -461,6 +462,13 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         grad.append('stop').attr('offset', '0%').attr('stop-color', d3.color(topicColors[key]).brighter(0.4));
         grad.append('stop').attr('offset', '100%').attr('stop-color', topicColors[key]);
     });
+
+    var bthGrad = defs.append('linearGradient')
+        .attr('id', 'grad-bth-split')
+        .attr('x1', '0%').attr('y1', '0%')
+        .attr('x2', '100%').attr('y2', '0%');
+    bthGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['translit']);
+    bthGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['harmful']);
 
     var simulation = d3.forceSimulation(nodes)
         .force('link', d3.forceLink(links).id(function(d) { return d.id; }).distance(90))
@@ -489,7 +497,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
     node.append('circle')
         .attr('r', 24)
-        .attr('fill', function(d) { return 'url(#grad-' + d.topic + ')'; })
+        .attr('fill', function(d) { return d.id === 'BTH' ? 'url(#grad-bth-split)' : 'url(#grad-' + d.topic + ')'; })
         .attr('stroke', '#fff')
         .attr('stroke-width', 2);
 
