@@ -403,7 +403,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
     };
 
     var nodes = [
-        { id: 'TW',   full: 'TimeWarp: Evaluating Web Agents by Revisiting the Past',                                     tldr: 'A benchmark for evaluating web agents on temporal variations of web UI, with scalable trajectory collection and behavior cloning.', topic: 'agentic',      venue: "ArXiv'26" },
+        { id: 'TW',   full: 'TimeWarp: Evaluating Web Agents by Revisiting the Past',                                     tldr: 'A benchmark for evaluating web agents on temporal variations of web UI, with scalable trajectory collection and a new way of behavior cloning.', topic: 'agentic',      venue: "ArXiv'26" },
         { id: 'CUS',  full: 'A Visual Survey of Computer Use Agents',                                                      tldr: 'A comprehensive visual survey of computer use agents and their capabilities for autonomous GUI interaction.', topic: 'agentic',      venue: "ICLR'26 Blogposts" },
         { id: 'RMA',  full: 'R-MMA: Enhancing VLMs with Recurrent Adapters for Few-Shot and Cross-Domain Generalization',   tldr: 'A multi-modal adapter using attention and weight sharing across layers to improve few-shot VLM generalization.', topic: 'vla',          venue: "WACV'26" },
         { id: 'FP',   full: 'FrugalPrompt: Reducing Contextual Overhead in LLMs via Token Attribution',                    tldr: 'Token attribution-based prompt compression that reduces contextual overhead in LLMs without significant performance loss.', topic: 'compression',  venue: "ArXiv'26" },
@@ -412,7 +412,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { id: 'VRB',  full: 'Visual Robustness Benchmark for Visual Question Answering (VQA)',                              tldr: 'A comprehensive benchmark for evaluating VQA model robustness to diverse visual perturbations.', topic: 'vqa',          venue: "WACV'25" },
         { id: 'CJ',   full: 'ChitroJera: A Regionally Relevant VQA Dataset for Bangla',                                   tldr: 'A regionally relevant VQA dataset capturing Bangla cultural context for evaluating vision-language models.', topic: 'vqa',          venue: "ECML-PKDD'25" },
         { id: 'VQS',  full: 'From Image to Language: A Critical Analysis of VQA Approaches, Challenges, and Opportunities',tldr: 'A comprehensive survey analyzing VQA approaches, datasets, challenges, and future research directions.', topic: 'vqa',          venue: "Information Fusion'24" },
-        { id: 'TPB',  full: 'Robustness of LLMs to Transliteration Perturbations in Bangla',                               tldr: 'Studying how robust LLMs are to transliteration perturbations in Bangla text processing tasks.', topic: 'translit',     venue: "BLP@AACL'25 🏆" },
+        { id: 'TPB',  full: 'Robustness of LLMs to Transliteration Perturbations in Bangla',                               tldr: 'Studying how robust LLMs are to transliteration perturbations in Bangla text processing tasks.', topic: 'translit',     venue: "BLP@AACL'25 🏆 Best Paper" },
         { id: 'BTL', full: 'BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla',                tldr: 'A benchmark dataset for converting Romanized Bangla text back to native Bangla script.', topic: 'translit',     venue: "EMNLP'24 Findings" },
         { id: 'BTH',  full: 'BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla',                tldr: 'A multi-label dataset for detecting hate speech in transliterated Bangla text.', topic: 'translit',     venue: "NAACL'25 Findings" },
         { id: 'BSM',  full: 'BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis',              tldr: 'A diverse code-mixed Bengali-English dataset for training and evaluating sentiment analysis models.', topic: 'translit',     venue: "LoResLM@COLING'25" },
@@ -452,8 +452,9 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
     var svg = d3.select('#research-map')
         .append('svg')
-        .attr('viewBox', '0 0 ' + width + ' ' + height)
-        .attr('preserveAspectRatio', 'xMidYMid meet');
+        .attr('width', width)
+        .attr('height', height)
+        .style('cursor', 'grab');
 
     var defs = svg.append('defs');
     Object.keys(topicColors).forEach(function(key) {
@@ -478,8 +479,39 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         .force('x', d3.forceX(width / 2).strength(0.06))
         .force('y', d3.forceY(height / 2).strength(0.06));
 
-    var linkGroup = svg.append('g');
-    var nodeGroup = svg.append('g');
+    var zoomGroup = svg.append('g');
+    var linkGroup = zoomGroup.append('g');
+    var nodeGroup = zoomGroup.append('g');
+
+    var zoom = d3.zoom()
+        .scaleExtent([0.3, 4])
+        .on('zoom', function(event) {
+            zoomGroup.attr('transform', event.transform);
+            svg.style('cursor', event.sourceEvent && event.sourceEvent.type === 'mousemove' ? 'grabbing' : 'grab');
+        });
+
+    svg.call(zoom);
+
+    container.addEventListener('wheel', function(e) { e.preventDefault(); }, { passive: false });
+
+    var controls = d3.select('#research-map')
+        .append('div')
+        .style('position', 'absolute')
+        .style('top', '10px')
+        .style('right', '10px')
+        .style('display', 'flex')
+        .style('flex-direction', 'column')
+        .style('gap', '4px')
+        .style('z-index', '5');
+
+    var btnStyle = 'width:26px;height:26px;border:1px solid #ddd;border-radius:5px;background:#fff;cursor:pointer;font-size:15px;line-height:1;color:#555;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);';
+
+    controls.append('button').attr('style', btnStyle).text('+')
+        .on('click', function() { svg.transition().duration(250).call(zoom.scaleBy, 1.4); });
+    controls.append('button').attr('style', btnStyle).text('−')
+        .on('click', function() { svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.4); });
+    controls.append('button').attr('style', btnStyle + 'font-size:10px;').text('⟳')
+        .on('click', function() { svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity); });
 
     var link = linkGroup.selectAll('line')
         .data(links)
@@ -554,7 +586,6 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
     }
 
     simulation.on('tick', function() {
-        var pad = 26;
         link
             .attr('x1', function(d) { return d.source.x; })
             .attr('y1', function(d) { return d.source.y; })
@@ -562,23 +593,24 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
             .attr('y2', function(d) { return d.target.y; });
 
         node.attr('transform', function(d) {
-            d.x = Math.max(pad, Math.min(width - pad, d.x));
-            d.y = Math.max(pad, Math.min(height - pad, d.y));
             return 'translate(' + d.x + ',' + d.y + ')';
         });
     });
 
     function dragstarted(event) {
         if (!event.active) simulation.alphaTarget(0.3).restart();
+        svg.style('cursor', 'grabbing');
         event.subject.fx = event.subject.x;
         event.subject.fy = event.subject.y;
     }
     function dragged(event) {
-        event.subject.fx = event.x;
-        event.subject.fy = event.y;
+        var t = d3.zoomTransform(svg.node());
+        event.subject.fx = t.invertX(event.x);
+        event.subject.fy = t.invertY(event.y);
     }
     function dragended(event) {
         if (!event.active) simulation.alphaTarget(0);
+        svg.style('cursor', 'grab');
         event.subject.fx = null;
         event.subject.fy = null;
     }
