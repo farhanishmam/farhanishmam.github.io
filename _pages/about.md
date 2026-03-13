@@ -120,8 +120,8 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
   <li class="news-item"><strong>May 24:</strong> Participated in the <a href="http://nlp.uned.es/exist2024/">EXIST-2024</a> shared task with my amazing team from <a href="https://www.pentabd.com/">Penta Global</a>.</li>
   <li class="news-item"><strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted at Information Fusion.</li>
 </ul>
-<h2>Research Highlights</h2>
-<h3>TimeWarp: Evaluating Web Agents by Revisiting the Past</h3>
+<h1>Research Highlights</h1>
+<h2>TimeWarp: Evaluating Web Agents by Revisiting the Past</h2>
 <p>
   <a class="transparent-button" href="https://timewarp-web.github.io/" target="_blank" rel="noopener">Project Page</a>
   <a class="transparent-button" href="https://arxiv.org/abs/2603.04949" target="_blank" rel="noopener">Paper</a>
@@ -136,7 +136,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
 <strong>tldr.</strong> A web agent benchmark that uses archived snapshots of real websites from the past to create reproducible and realistic evaluation tasks.
 
-<h3>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</h3>
+<h2>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</h2>
 <p>
   <a class="transparent-button" href="https://frugalprompt.github.io/" target="_blank" rel="noopener">Project Page</a>
   <a class="transparent-button" href="https://arxiv.org/abs/2510.16439" target="_blank" rel="noopener">Paper</a>
@@ -149,7 +149,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
 <strong>tldr.</strong> A token attribution-based prompt compression method that reduces contextual overhead in LLMs without significant performance degradation.
 
-<h3>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</h3>
+<h2>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</h2>
 <p>
   <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/papers/Fahim_R-MMA_Enhancing_Vision-Language_Models_with_Recurrent_Adapters_for_Few-Shot_and_WACV_2026_paper.pdf" target="_blank" rel="noopener">Paper</a>
   <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/supplemental/Fahim_R-MMA_Enhancing_Vision-Language_WACV_2026_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
