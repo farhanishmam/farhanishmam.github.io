@@ -121,9 +121,40 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
   <li class="news-item"><strong>Jan 24:</strong> Our <a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484">VQA Survey</a> got accepted at Information Fusion.</li>
 </ul>
 <h2>Research Highlights</h2>
+<h3>TimeWarp: Evaluating Web Agents by Revisiting the Past</h3>
+<p>
+  <a class="transparent-button" href="https://timewarp-web.github.io/" target="_blank" rel="noopener">Project Page</a>
+  <a class="transparent-button" href="https://arxiv.org/abs/2603.04949" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://github.com/sparklabutah/timewarp" target="_blank" rel="noopener">Code</a>
+  <a class="transparent-button" href="https://huggingface.co/datasets/sparklabutah/timewarp" target="_blank" rel="noopener">Dataset</a>
+  <a class="transparent-button" href="https://huggingface.co/collections/sparklabutah/timewarp-models" target="_blank" rel="noopener">Models</a>
+</p>
+
+<div style="margin: 16px 0;">
+    <img src="images/timeWarp.png" style="width: 100%; display: block; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.10);">
+</div>
+
+<strong>tldr.</strong> A web agent benchmark that uses archived snapshots of real websites from the past to create reproducible and realistic evaluation tasks.
+
+<h3>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</h3>
+<p>
+  <a class="transparent-button" href="https://frugalprompt.github.io/" target="_blank" rel="noopener">Project Page</a>
+  <a class="transparent-button" href="https://arxiv.org/abs/2510.16439" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://github.com/Starscream-11813/Frugal-ICL" target="_blank" rel="noopener">Code</a>
+</p>
+
+<div style="margin: 16px 0;">
+    <img src="images/frugalPrompt.png" style="width: 100%; display: block; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.10);">
+</div>
+
+<strong>tldr.</strong> A token attribution-based prompt compression method that reduces contextual overhead in LLMs without significant performance degradation.
+
 <h3>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</h3>
 <p>
-  <a class="transparent-button" href="https://drive.google.com/file/d/1JzHbUd6pui7MxpM32KL3tGhGXQPz5qkf/view" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/papers/Fahim_R-MMA_Enhancing_Vision-Language_Models_with_Recurrent_Adapters_for_Few-Shot_and_WACV_2026_paper.pdf" target="_blank" rel="noopener">Paper</a>
+  <a class="transparent-button" href="https://openaccess.thecvf.com/content/WACV2026/supplemental/Fahim_R-MMA_Enhancing_Vision-Language_WACV_2026_supplemental.pdf" target="_blank" rel="noopener">Supp</a>
+  <a class="transparent-button" href="https://github.com/farhanishmam/R-MMA" target="_blank" rel="noopener">Code</a>
+  <a class="transparent-button" href="https://drive.google.com/file/d/1IqWWnOjGb71I6X0CRYpSBFqS9e4UNJHc/view" target="_blank" rel="noopener">Poster</a>
 </p>
 
 <div style="margin: 16px 0;">
