@@ -134,7 +134,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
     <img src="images/timeWarp.png" style="width: 100%; display: block; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.10);">
 </div>
 
-<strong>tldr.</strong> A web agent benchmark that uses archived snapshots of real websites from the past to create reproducible and realistic evaluation tasks.
+<strong>tldr.</strong> (a) a benchmark for evaluating web agents on temporal variations of web UI, (b) a method for scalably collecting trajectories across temporal versions, and (c) a method for behavior cloining web agents using planning, memory and reasoning. 
 
 <h2>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</h2>
 <p>
