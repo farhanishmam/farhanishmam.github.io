@@ -383,7 +383,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
     var topicColors = {
         agentic:     '#e74c3c',
         vla:         '#9b59b6',
-        compression: '#f39c12',
+        compression: '#f1c40f',
         vqa:         '#3498db',
         translit:    '#2ecc71',
         accessibility:'#1abc9c',
@@ -438,6 +438,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { source: 'CUS', target: 'VQS'  },
         { source: 'SPIP', target: 'VQS'  },
         { source: 'BTL', target: 'BSM'  },
+        { source: 'TPB', target: 'BSM'  },
         { source: 'BTH', target: 'BSM'  },
         { source: 'BTH', target: 'PNL'  },
         { source: 'PML', target: 'BTH'  },
