@@ -271,7 +271,7 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 <div id="research-map-section">
   <h2 style="margin-top:0; margin-bottom:16px; padding-bottom:8px; border-bottom:2px solid #e0e0e0;">Research Map</h2>
   <p style="font-size:0.85em; color:#999; margin-top:-10px; margin-bottom:12px;">
-    Click a node to see details. Drag to rearrange. Related papers are connected.
+    The research map will help you navigate through my research portfolio. Click any node for details.
   </p>
   <div id="research-map"></div>
   <div class="rm-legend" id="rm-legend"></div>
