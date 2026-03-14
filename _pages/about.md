@@ -441,8 +441,10 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         { source: 'BTH', target: 'PNL'  },
         { source: 'PML', target: 'BTH'  },
         { source: 'FP',  target: 'FKAN' },
-        { source: 'BP',  target: 'TPB'  },
-        { source: 'CJ',  target: 'BTL'  }
+        { source: 'PML', target: 'FKAN' },
+        { source: 'PNL', target: 'FKAN' },
+        { source: 'BTH', target: 'FKAN' },
+        { source: 'BSM', target: 'FKAN' },
     ];
 
     var container = document.getElementById('research-map');
@@ -468,8 +470,33 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
         .attr('id', 'grad-bth-split')
         .attr('x1', '0%').attr('y1', '0%')
         .attr('x2', '100%').attr('y2', '0%');
-    bthGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['translit']);
-    bthGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['harmful']);
+    bthGrad.append('stop').attr('offset', '0%').attr('stop-color', topicColors['translit']);
+    bthGrad.append('stop').attr('offset', '33.3%').attr('stop-color', topicColors['translit']);
+    bthGrad.append('stop').attr('offset', '33.3%').attr('stop-color', topicColors['harmful']);
+    bthGrad.append('stop').attr('offset', '66.6%').attr('stop-color', topicColors['harmful']);
+    bthGrad.append('stop').attr('offset', '66.6%').attr('stop-color', topicColors['textclass']);
+    bthGrad.append('stop').attr('offset', '100%').attr('stop-color', topicColors['textclass']);
+
+    var bsmGrad = defs.append('linearGradient')
+        .attr('id', 'grad-bsm-split')
+        .attr('x1', '0%').attr('y1', '0%')
+        .attr('x2', '100%').attr('y2', '0%');
+    bsmGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['translit']);
+    bsmGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['textclass']);
+
+    var pmlGrad = defs.append('linearGradient')
+        .attr('id', 'grad-pml-split')
+        .attr('x1', '0%').attr('y1', '0%')
+        .attr('x2', '100%').attr('y2', '0%');
+    pmlGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['harmful']);
+    pmlGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['textclass']);
+
+    var pnlGrad = defs.append('linearGradient')
+        .attr('id', 'grad-pnl-split')
+        .attr('x1', '0%').attr('y1', '0%')
+        .attr('x2', '100%').attr('y2', '0%');
+    pnlGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['harmful']);
+    pnlGrad.append('stop').attr('offset', '50%').attr('stop-color', topicColors['textclass']);
 
     var simulation = d3.forceSimulation(nodes)
         .force('link', d3.forceLink(links).id(function(d) { return d.id; }).distance(90))
@@ -529,7 +556,13 @@ Hi, I'm Farhan, a graduate PhD student at KSoC, UofU. I obtained my Bachelor's d
 
     node.append('circle')
         .attr('r', 24)
-        .attr('fill', function(d) { return d.id === 'BTH' ? 'url(#grad-bth-split)' : 'url(#grad-' + d.topic + ')'; })
+        .attr('fill', function(d) {
+            if (d.id === 'BTH') return 'url(#grad-bth-split)';
+            if (d.id === 'PML') return 'url(#grad-pml-split)';
+            if (d.id === 'PNL') return 'url(#grad-pnl-split)';
+            if (d.id === 'BSM') return 'url(#grad-bsm-split)';
+            return 'url(#grad-' + d.topic + ')';
+        })
         .attr('stroke', '#fff')
         .attr('stroke-width', 2);
 
