@@ -11,7 +11,7 @@ locale                   : "en-BD"
 title                    : "Farhan Ishmam"
 title_separator          : "-"
 name                     : &name "Md Farhan Ishmam"
-description              : &description "personal description"
+description              : &description "Farhan Ishmam is a PhD student at the University of Utah researching AI agents, efficient prompting, and vision-language models."
 url                      : https://farhanishmam.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "farhanishmam/farhanishmam.github.io"
@@ -155,6 +155,7 @@ include:
   - _pages
   - files
 exclude:
+  - design_explore.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
