@@ -24,7 +24,7 @@
 }
 
 .research-page-heading .page-description {
-  max-width: 650px;
+  max-width: none;
   margin: 20px 0 0;
   color: var(--muted, #62645f);
   font-size: 15px;

@@ -15,7 +15,7 @@ redirect_from:
 <article class="fi-project" data-project="WebKD" id="webkd">
 <p class="fi-eyebrow">Web-agent distillation</p>
 <div class="fi-project-detail"><h3>Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents</h3><p class="fi-project-summary">WebKD trains smaller web agents with black-box teacher feedback that corrects failed trajectories in the student's own style.</p><figure><a href="{{ '/images/webkd-overview.png' | relative_url }}" aria-label="View the full WebKD method overview"><img src="{{ '/images/webkd-overview.png' | relative_url }}" width="2564" height="1346" alt="WebKD method overview: a teacher corrects failed student rollouts to distill planning, reasoning, memory, and actions into a smaller web agent" decoding="async"></a></figure></div>
-<div class="fi-resources" aria-label="WebKD resources"><a href="https://web-teach-kd.github.io/" target="_blank" rel="noopener">Project</a><a href="https://web-teach-kd.github.io/assets/webkd-paper.pdf" target="_blank" rel="noopener">Paper</a><a href="https://github.com/sparklabutah/webkd" target="_blank" rel="noopener">Code</a></div>
+<div class="fi-resources" aria-label="WebKD resources"><a href="https://web-teach-kd.github.io/" target="_blank" rel="noopener">Project</a><a href="https://arxiv.org/abs/2610.19834" target="_blank" rel="noopener">Paper</a><a href="https://github.com/sparklabutah/webkd" target="_blank" rel="noopener">Code</a></div>
 </article>
 <article class="fi-project" data-project="WebMix" id="webmix">
 <p class="fi-eyebrow">Web-agent adaptation</p>
