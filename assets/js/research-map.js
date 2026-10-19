@@ -25,6 +25,7 @@
     };
 
     var nodes = [
+        { id: 'MW', full: 'Back to Basics: Drills Before Games for Web Agents', tldr: 'MiniWeb benchmarks reusable web-agent skills across 65 websites; targeted skill practice paired with a planner improves full-task success and transfers to other benchmarks.', topic: 'agentic', venue: 'Under review, 2026', resources: [{ label: 'Project Page', href: 'https://miniweb-site.github.io/' }, { label: 'Code', href: 'https://github.com/miniweb-site/MiniWeb' }, { label: 'Dataset', href: 'https://huggingface.co/datasets/miniweb/MiniWeb' }] },
         { id: 'WKD', full: 'Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents', tldr: "WebKD trains smaller web agents with black-box teacher feedback that corrects failed trajectories in the student's own style.", topic: 'agentic', venue: "ArXiv'26", resources: [{ label: 'Project Page', href: 'https://web-teach-kd.github.io/' }, { label: 'Paper', href: 'https://arxiv.org/abs/2610.19834' }, { label: 'Code', href: 'https://github.com/sparklabutah/webkd' }] },
         { id: 'WM',   full: "Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks", tldr: 'WebMix combines learned LoRA adapters using a mixture hypernetwork, helping web agents adapt to unseen domains and changed interfaces without retraining.', topic: 'agentic', venue: "ArXiv'26", resources: [{ label: 'Project Page', href: 'https://webmix-hyper.github.io/' }, { label: 'Code', href: 'https://github.com/sparklabutah/hyperweb' }] },
         { id: 'TW',   full: 'TimeWarp: Evaluating Web Agents by Revisiting the Past',                                     tldr: 'Benchmark for evaluating web agents on temporal variations of web UI, with scalable trajectory collection and a new way of behavior cloning.', topic: 'agentic',      venue: "NeurIPS'26 Evaluations and Datasets",             link: 'https://arxiv.org/abs/2603.04949' },
@@ -49,6 +50,8 @@
     ];
 
     var links = [
+        { source: 'MW', target: 'TW'   },
+        { source: 'MW', target: 'WKD'  },
         { source: 'WKD', target: 'TW'   },
         { source: 'WKD', target: 'WM'   },
         { source: 'WKD', target: 'CUS'  },
