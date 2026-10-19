@@ -2,6 +2,7 @@
 (function () {
     var topicColors = {
         agentic:     '#e74c3c',
+        creativity:  '#8d6e63',
         vla:         '#9b59b6',
         compression: '#f1c40f',
         vqa:         '#3498db',
@@ -13,6 +14,7 @@
 
     var topicLabels = {
         agentic:     'Agentic Systems',
+        creativity:  'LLM Creativity',
         vla:         'Vision-Language Adapters',
         compression: 'Prompt Compression',
         vqa:         'Visual Question Answering',
@@ -27,6 +29,8 @@
         { id: 'WM',   full: "Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks", tldr: 'WebMix combines learned LoRA adapters using a mixture hypernetwork, helping web agents adapt to unseen domains and changed interfaces without retraining.', topic: 'agentic', venue: "ArXiv'26", resources: [{ label: 'Project Page', href: 'https://webmix-hyper.github.io/' }, { label: 'Code', href: 'https://github.com/sparklabutah/hyperweb' }] },
         { id: 'TW',   full: 'TimeWarp: Evaluating Web Agents by Revisiting the Past',                                     tldr: 'Benchmark for evaluating web agents on temporal variations of web UI, with scalable trajectory collection and a new way of behavior cloning.', topic: 'agentic',      venue: "NeurIPS'26 Evaluations and Datasets",             link: 'https://arxiv.org/abs/2603.04949' },
         { id: 'CUS',  full: 'Computer Use-Survey - A Visual Survey of Computer Use Agents',                               tldr: 'Interactive and visual survey of LLM/VLM agents doing computer tasks.', topic: 'agentic',      venue: "ICLR'26 Blogposts",    link: 'https://iclr-blogposts.github.io/2026/blog/2026/web-agent/' },
+        { id: 'KNOWS', full: 'The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge', tldr: 'KNOWS benchmarks web agents on turning retrieved information into finished documents, slides, and spreadsheets; even the best agent fully succeeds on fewer than 3% of tasks.', topic: 'agentic', venue: "EMNLP'26 Findings", resources: [{ label: 'Project Page', href: 'https://alexgill321.github.io/KNOWS-benchmark/#' }, { label: 'Paper', href: 'https://arxiv.org/abs/2609.30604' }, { label: 'Code', href: 'https://github.com/alexgill321/KNOWS-benchmark' }, { label: 'Dataset', href: 'https://huggingface.co/datasets/utahnlp/knows-benchmark' }] },
+        { id: 'NNG', full: 'Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation', tldr: 'A benchmark of 83 published works shows that LLMs favor chronological storytelling and struggle to produce coherent nonlinear narratives, even when explicitly instructed.', topic: 'creativity', venue: "ArXiv'26", resources: [{ label: 'Project Page', href: 'https://nonlinear-narrative.github.io/' }, { label: 'Paper', href: 'https://arxiv.org/abs/2610.21468' }, { label: 'Code', href: 'https://github.com/Starscream-11813/LLM-nonlinear-storytelling' }] },
         { id: 'RMA',  full: 'R-MMA: Enhancing VLMs with Recurrent Adapters for Few-Shot and Cross-Domain Generalization', tldr: 'Multi-modal adapter using attention and weight sharing across layers to improve few-shot VLM generalization.', topic: 'vla',          venue: "WACV'26",              link: 'https://openaccess.thecvf.com/content/WACV2026/papers/Fahim_R-MMA_Enhancing_Vision-Language_Models_with_Recurrent_Adapters_for_Few-Shot_and_WACV_2026_paper.pdf' },
         { id: 'FP',   full: 'FrugalPrompt: Reducing Contextual Overhead in LLMs via Token Attribution',                  tldr: 'Token attribution-based prompt compression that reduces contextual overhead in LLMs without significant performance loss.', topic: 'compression',  venue: "ArXiv'26",             link: 'https://arxiv.org/abs/2510.16439' },
         { id: 'VCD',  full: 'Enhancing Vision Language Corruption Robustness using Cross Distribution & Prompted Denoisers', tldr: 'Mixture of Experts (MoE)-style visual denoisers and prompted LLM textual denoisers to improve robustness of VLMs against common corruptions.', topic: 'vqa',          venue: "WACV'26",              link: 'https://openaccess.thecvf.com/content/WACV2026/papers/Latif_Enhancing_Vision_Language_Corruption_Robustness_using_Cross-Distribution__Prompted_Denoisers_WACV_2026_paper.pdf' },
@@ -51,6 +55,8 @@
         { source: 'WM',  target: 'TW'   },
         { source: 'WM',  target: 'CUS'  },
         { source: 'TW',  target: 'CUS'  },
+        { source: 'KNOWS', target: 'TW' },
+        { source: 'KNOWS', target: 'CUS' },
         { source: 'VCD', target: 'VRB'  },
         { source: 'BP',  target: 'CJ'   },
         { source: 'TPB', target: 'BTL'  },

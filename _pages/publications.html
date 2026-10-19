@@ -17,6 +17,7 @@ extra_css: research-pages
   <nav class="pub-nav" aria-label="Research topics">
   <div class="pub-nav-title">Research Topics</div>
     <a href="#agentic-systems">Agentic Systems</a>
+    <a href="#llm-creativity">LLM Creativity</a>
     <a href="#vision-language-adapters">Vision-Language Adapters</a>
     <a href="#prompt-compression">Prompt Compression</a>
     <a href="#vqa">Visual Question Answering</a>
@@ -61,6 +62,22 @@ extra_css: research-pages
       </div>
 
 
+      <div class="pub-img-wrap" id="knows">
+          <a href="{{ '/images/knows-overview.png' | relative_url }}">
+              <img src="{{ '/images/knows-overview.png' | relative_url }}" width="1900" height="1069" alt="KNOWS benchmark overview: a web agent creates a slide deck, evaluated with detailed content and visual checkpoints" loading="lazy" decoding="async">
+          </a>
+          <div class="section-item">
+              <strong>The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge</strong><br>
+              <em>EMNLP'26 Findings</em><br>
+              Alexander Gill, <strong class="author-name">Md Farhan Ishmam</strong>, Xuyen Nguyen, Neha Bhat, Parker Henry DeYoung, Fateme Hashemi Chaleshtori, Nathan Stringham, Kenneth Marino, Ana Marasović<br>
+              <p><strong>TL;DR:</strong> KNOWS benchmarks web agents on turning retrieved information into finished documents, slides, and spreadsheets; even the best agent fully succeeds on fewer than 3% of tasks.</p>
+              <a class="transparent-button" href="https://alexgill321.github.io/KNOWS-benchmark/#" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2609.30604" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/alexgill321/KNOWS-benchmark" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://huggingface.co/datasets/utahnlp/knows-benchmark" target="_blank" rel="noopener">Dataset</a>
+          </div>
+      </div>
+
       <div class="pub-img-wrap">
           <a href="/images/timeWarp.png">
               <img src="/images/timeWarp.png" alt="TimeWarp paper figure" loading="lazy" decoding="async">
@@ -86,6 +103,25 @@ extra_css: research-pages
               <em><a href="https://iclr-blogposts.github.io/2026/">ICLR'26 Blogposts</a></em><br>
               Kenneth Marino, <strong class="author-name">Md Farhan Ishmam</strong>, and Ana Marasovic<br>
               <a class="transparent-button" href="https://iclr-blogposts.github.io/2026/blog/2026/web-agent/" target="_blank" rel="noopener">Blog</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="pub-section" id="llm-creativity">
+      <h2 class="section-title">LLM Creativity</h2>
+
+      <div class="pub-img-wrap" id="nonlinear-narrative">
+          <a href="{{ '/images/nonlinear-narrative-overview.png' | relative_url }}">
+              <img src="{{ '/images/nonlinear-narrative-overview.png' | relative_url }}" width="1040" height="520" alt="Nonlinear narrative story graph linking events through causal dependencies, foreshadowing, and reveals" loading="lazy" decoding="async">
+          </a>
+          <div class="section-item">
+              <strong>Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation</strong><br>
+              <em>ArXiv'26</em><br>
+              Syed Rifat Raiyan, Md. Tariquzzaman, <strong class="author-name">Md Farhan Ishmam</strong>, Tenghao Huang<br>
+              <p><strong>TL;DR:</strong> A benchmark of 83 published works shows that LLMs favor chronological storytelling and struggle to produce coherent nonlinear narratives, even when explicitly instructed.</p>
+              <a class="transparent-button" href="https://nonlinear-narrative.github.io/" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2610.21468" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/Starscream-11813/LLM-nonlinear-storytelling" target="_blank" rel="noopener">Code</a>
           </div>
       </div>
     </div>
