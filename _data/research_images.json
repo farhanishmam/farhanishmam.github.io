@@ -1,0 +1,112 @@
+{
+  "/images/BanTH.png": {
+    "width": 740,
+    "height": 694,
+    "webp": "/images/optimized/BanTH.webp"
+  },
+  "/images/BanglaProtha.png": {
+    "width": 1797,
+    "height": 814,
+    "webp": "/images/optimized/BanglaProtha.webp"
+  },
+  "/images/BanglaTLit.png": {
+    "width": 1102,
+    "height": 637
+  },
+  "/images/ChitroJera.png": {
+    "width": 1476,
+    "height": 740,
+    "webp": "/images/optimized/ChitroJera.webp"
+  },
+  "/images/FRKAN.png": {
+    "width": 801,
+    "height": 476
+  },
+  "/images/bdslig.png": {
+    "width": 1674,
+    "height": 384,
+    "webp": "/images/optimized/bdslig.webp"
+  },
+  "/images/bnsentmix.png": {
+    "width": 867,
+    "height": 675,
+    "webp": "/images/optimized/bnsentmix.webp"
+  },
+  "/images/btl.png": {
+    "width": 1561,
+    "height": 420,
+    "webp": "/images/optimized/btl.webp"
+  },
+  "/images/clefNLP.png": {
+    "width": 1534,
+    "height": 645
+  },
+  "/images/clefV.png": {
+    "width": 821,
+    "height": 652
+  },
+  "/images/computerUse.png": {
+    "width": 1712,
+    "height": 779,
+    "webp": "/images/optimized/computerUse.webp"
+  },
+  "/images/dora-explorer-overview.png": {
+    "width": 1618,
+    "height": 742,
+    "webp": "/images/optimized/dora-explorer-overview.webp"
+  },
+  "/images/frugalPrompt.png": {
+    "width": 1917,
+    "height": 421
+  },
+  "/images/knows-overview.png": {
+    "width": 1900,
+    "height": 1069,
+    "webp": "/images/optimized/knows-overview.webp"
+  },
+  "/images/miniweb-overview.png": {
+    "width": 1876,
+    "height": 659,
+    "webp": "/images/optimized/miniweb-overview.webp"
+  },
+  "/images/nonlinear-narrative-overview.png": {
+    "width": 1632,
+    "height": 683,
+    "webp": "/images/optimized/nonlinear-narrative-overview.webp"
+  },
+  "/images/overviewRMMA.PNG": {
+    "width": 1613,
+    "height": 505,
+    "webp": "/images/optimized/overviewRMMA.webp"
+  },
+  "/images/timeWarp.png": {
+    "width": 1825,
+    "height": 671,
+    "webp": "/images/optimized/timeWarp.webp"
+  },
+  "/images/vlmDenoising.png": {
+    "width": 1791,
+    "height": 546,
+    "webp": "/images/optimized/vlmDenoising.webp"
+  },
+  "/images/vqaSurvey.png": {
+    "width": 1550,
+    "height": 809,
+    "webp": "/images/optimized/vqaSurvey.webp"
+  },
+  "/images/vre.png": {
+    "width": 1754,
+    "height": 680,
+    "webp": "/images/optimized/vre.webp"
+  },
+  "/images/webkd-overview.png": {
+    "width": 2564,
+    "height": 1346,
+    "webp": "/images/optimized/webkd-overview.webp"
+  },
+  "/images/webmix-overview.png": {
+    "width": 2546,
+    "height": 1378,
+    "webp": "/images/optimized/webmix-overview.webp"
+  }
+}

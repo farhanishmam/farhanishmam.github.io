@@ -43,7 +43,8 @@
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       opener = link;
-      fullImage.src = link.href;
+      // Research sources are full resolution; reuse the browser's cached format.
+      fullImage.src = thumbnail.currentSrc || link.href;
       fullImage.alt = thumbnail.alt;
       document.documentElement.classList.add('image-preview-open');
       preview.showModal();

@@ -1,0 +1,7 @@
+{%- assign image = site.data.research_images[include.src] -%}
+<picture>
+  {%- if image.webp -%}
+  <source srcset="{{ image.webp | relative_url }}" type="image/webp">
+  {%- endif -%}
+  <img src="{{ include.src | relative_url }}"{% if image %} width="{{ image.width }}" height="{{ image.height }}"{% endif %} alt="{{ include.alt | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async"{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+</picture>

@@ -36,7 +36,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="miniweb">
           <a href="{{ '/images/miniweb-overview.png' | relative_url }}">
-              <img src="{{ '/images/miniweb-overview.png' | relative_url }}" width="1876" height="659" alt="MiniWeb overview: 65 connected websites across 15 domains for practicing and evaluating web-agent skills" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/miniweb-overview.png" alt="MiniWeb overview: 65 connected websites across 15 domains for practicing and evaluating web-agent skills" loading="eager" fetchpriority="high" %}
           </a>
           <div class="section-item">
               <strong>Back to Basics: Drills Before Games for Web Agents</strong><br>
@@ -50,7 +50,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="webkd">
           <a href="{{ '/images/webkd-overview.png' | relative_url }}">
-              <img src="{{ '/images/webkd-overview.png' | relative_url }}" width="2564" height="1346" alt="WebKD method overview: teacher feedback on student rollouts for web-agent distillation" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/webkd-overview.png" alt="WebKD method overview: teacher feedback on student rollouts for web-agent distillation" %}
           </a>
           <div class="section-item">
               <strong>Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents</strong><br>
@@ -64,13 +64,14 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="webmix">
           <a href="{{ '/images/webmix-overview.png' | relative_url }}">
-              <img src="{{ '/images/webmix-overview.png' | relative_url }}" width="2546" height="1378" alt="WebMix method overview: Scout, mixture hypernetwork, and adapted web agent" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/webmix-overview.png" alt="WebMix method overview: Scout, mixture hypernetwork, and adapted web agent" %}
           </a>
           <div class="section-item">
               <strong>Don't Retrain, Remix: Adaptation of Web Agents using Mixture Hypernetworks</strong><br>
               <em>ArXiv'26</em><br>
               <strong class="author-name">Md Farhan Ishmam</strong>, Minh Pham Dinh, Kenneth Marino<br>
               <a class="transparent-button" href="https://webmix-hyper.github.io/" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2610.22539" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/sparklabutah/hyperweb" target="_blank" rel="noopener">Code</a>
           </div>
       </div>
@@ -78,7 +79,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/timeWarp.png">
-              <img src="/images/timeWarp.png" alt="TimeWarp paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/timeWarp.png" alt="TimeWarp paper figure" %}
           </a>
           <div class="section-item">
               <strong>TimeWarp: Evaluating Web Agents by Revisiting the Past</strong><br>
@@ -94,7 +95,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="dora-explorer">
           <a href="{{ '/images/dora-explorer-overview.png' | relative_url }}">
-              <img src="{{ '/images/dora-explorer-overview.png' | relative_url }}" width="1618" height="742" alt="DORA Explorer method overview: ranking and sampling candidate actions improves exploration and avoids repeated action loops" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/dora-explorer-overview.png" alt="DORA Explorer method overview: ranking and sampling candidate actions improves exploration and avoids repeated action loops" %}
           </a>
           <div class="section-item">
               <strong>DORA Explorer: Improving the Exploration Ability of LLMs Without Training</strong><br>
@@ -108,7 +109,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="knows">
           <a href="{{ '/images/knows-overview.png' | relative_url }}">
-              <img src="{{ '/images/knows-overview.png' | relative_url }}" width="1900" height="1069" alt="KNOWS benchmark overview: a web agent creates a slide deck, evaluated with detailed content and visual checkpoints" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/knows-overview.png" alt="KNOWS benchmark overview: a web agent creates a slide deck, evaluated with detailed content and visual checkpoints" %}
           </a>
           <div class="section-item">
               <strong>The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge</strong><br>
@@ -123,7 +124,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/computerUse.png">
-              <img src="/images/computerUse.png" alt="Computer Use Survey paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/computerUse.png" alt="Computer Use Survey paper figure" %}
           </a>
           <div class="section-item">
               <strong>Computer Use Survey - A Visual Survey of Computer Use Agents</strong><br>
@@ -139,7 +140,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap" id="nonlinear-narrative">
           <a href="{{ '/images/nonlinear-narrative-overview.png' | relative_url }}">
-              <img src="{{ '/images/nonlinear-narrative-overview.png' | relative_url }}" width="1632" height="683" alt="Nonlinear narrative example comparing chronological and telling order, showing how a later reveal explains an earlier event" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/nonlinear-narrative-overview.png" alt="Nonlinear narrative example comparing chronological and telling order, showing how a later reveal explains an earlier event" %}
           </a>
           <div class="section-item">
               <strong>Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation</strong><br>
@@ -157,7 +158,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/overviewRMMA.PNG">
-              <img src="/images/overviewRMMA.PNG" alt="R-MMA paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/overviewRMMA.PNG" alt="R-MMA paper figure" %}
           </a>
           <div class="section-item">
               <strong>R-MMA: Enhancing Vision-Language Models with Recurrent Adapters for Few-Shot and Cross-Domain Generalization</strong><br>
@@ -176,7 +177,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/frugalPrompt.png">
-              <img src="/images/frugalPrompt.png" alt="FrugalPrompt prompt compression paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/frugalPrompt.png" alt="FrugalPrompt prompt compression paper figure" %}
           </a>
           <div class="section-item">
               <strong>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</strong><br>
@@ -194,7 +195,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
       <a href="/images/vlmDenoising.png">
-              <img src="/images/vlmDenoising.png" alt="Vision-language corruption robustness paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/vlmDenoising.png" alt="Vision-language corruption robustness paper figure" %}
           </a>
           <div class="section-item">
               <strong>Enhancing Vision Language Corruption Robustness using Cross Distribution & Prompted Denoisers</strong><br>
@@ -210,7 +211,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/BanglaProtha.png">
-              <img src="/images/BanglaProtha.png" alt="BanglaProtha dataset paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/BanglaProtha.png" alt="BanglaProtha dataset paper figure" %}
           </a>
           <div class="section-item">
               <strong>BanglaProtha: Evaluating Vision Language Models in Underrepresented Long-tail Cultural Contexts</strong><br>
@@ -226,7 +227,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/vre.png">
-              <img src="/images/vre.png" alt="Visual Robustness Benchmark for VQA paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/vre.png" alt="Visual Robustness Benchmark for VQA paper figure" %}
           </a>
           <div class="section-item">
               <strong>Visual Robustness Benchmark for Visual Question Answering (VQA)</strong><br>
@@ -243,7 +244,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/ChitroJera.png">
-              <img src="/images/ChitroJera.png" alt="ChitroJera VQA dataset paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/ChitroJera.png" alt="ChitroJera VQA dataset paper figure" %}
           </a>
           <div class="section-item">
               <strong>ChitroJera: A Regionally Relevant Visual Question Answering Dataset for Bangla</strong><br>
@@ -259,7 +260,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/vqaSurvey.png">
-              <img src="/images/vqaSurvey.png" alt="From Image to Language VQA survey paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/vqaSurvey.png" alt="From Image to Language VQA survey paper figure" %}
           </a>
           <div class="section-item">
               <strong>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</strong><br>
@@ -276,7 +277,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/btl.png">
-              <img src="/images/btl.png" alt="Robustness of LLMs to Transliteration Perturbations in Bangla paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/btl.png" alt="Robustness of LLMs to Transliteration Perturbations in Bangla paper figure" %}
           </a>
           <div class="section-item">
               <strong>Robustness of LLMs to Transliteration Perturbations in Bangla</strong><br>
@@ -292,7 +293,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/BanglaTLit.png">
-              <img src="/images/BanglaTLit.png" alt="BanglaTLit back-transliteration dataset paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/BanglaTLit.png" alt="BanglaTLit back-transliteration dataset paper figure" %}
           </a>
           <div class="section-item">
               <strong>BanglaTLit: A Benchmark Dataset for Back-Transliteration of Romanized Bangla</strong><br>
@@ -309,7 +310,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/BanTH.png">
-              <img src="/images/BanTH.png" alt="BanTH hate speech dataset paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/BanTH.png" alt="BanTH hate speech dataset paper figure" %}
           </a>
           <div class="section-item">
               <strong>BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla</strong><br>
@@ -322,7 +323,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/bnsentmix.png">
-              <img src="/images/bnsentmix.png" alt="BnSentMix sentiment analysis dataset paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/bnsentmix.png" alt="BnSentMix sentiment analysis dataset paper figure" %}
           </a>
           <div class="section-item">
               <strong>BnSentMix: A Diverse Bengali-English Code-Mixed Dataset for Sentiment Analysis</strong><br>
@@ -342,7 +343,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/bdslig.png">
-              <img src="/images/bdslig.png" alt="Prompting with Sign Language paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/bdslig.png" alt="Prompting with Sign Language paper figure" %}
           </a>
           <div class="section-item">
               <strong>Prompting with Sign Parameters for Low-resource Sign Language Instruction Generation</strong><br>
@@ -361,7 +362,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/FRKAN.png">
-              <img src="/images/FRKAN.png" alt="FourierKAN text classification paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/FRKAN.png" alt="FourierKAN text classification paper figure" %}
           </a>
           <div class="section-item">
               <strong>FourierKAN outperforms MLP on Text Classification Head Fine-tuning</strong><br>
@@ -379,7 +380,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/clefNLP.png">
-              <img src="/images/clefNLP.png" alt="Penta NLP at EXIST 2024 paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/clefNLP.png" alt="Penta NLP at EXIST 2024 paper figure" %}
           </a>
           <div class="section-item">
               <strong>Penta NLP at EXIST 2024 Task 1–3: Sexism Identification, Source Intention, Sexism Categorization In Tweets</strong><br>
@@ -392,7 +393,7 @@ extra_css: research-pages
 
       <div class="pub-img-wrap">
           <a href="/images/clefV.png">
-              <img src="/images/clefV.png" alt="Penta ML at EXIST 2024 paper figure" loading="lazy" decoding="async">
+              {% include research-image.html src="/images/clefV.png" alt="Penta ML at EXIST 2024 paper figure" %}
           </a>
           <div class="section-item">
               <strong>Penta ML at EXIST 2024: Tagging Sexism in Online Multimodal Content With Attention-enhanced Modal Context</strong><br>
