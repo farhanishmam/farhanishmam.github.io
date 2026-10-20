@@ -1,112 +1,161 @@
 {
   "/images/BanTH.png": {
-    "width": 740,
+    "full": "/images/opt/BanTH-full.webp",
     "height": 694,
-    "webp": "/images/optimized/BanTH.webp"
+    "webp": "/images/opt/BanTH-400.webp 400w, /images/opt/BanTH-740.webp 740w",
+    "width": 740
   },
   "/images/BanglaProtha.png": {
-    "width": 1797,
+    "full": "/images/opt/BanglaProtha-full.webp",
     "height": 814,
-    "webp": "/images/optimized/BanglaProtha.webp"
+    "webp": "/images/opt/BanglaProtha-400.webp 400w, /images/opt/BanglaProtha-760.webp 760w, /images/opt/BanglaProtha-1100.webp 1100w, /images/opt/BanglaProtha-1450.webp 1450w, /images/opt/BanglaProtha-1797.webp 1797w",
+    "width": 1797
   },
   "/images/BanglaTLit.png": {
-    "width": 1102,
-    "height": 637
+    "full": "/images/opt/BanglaTLit-full.webp",
+    "height": 637,
+    "webp": "/images/opt/BanglaTLit-400.webp 400w, /images/opt/BanglaTLit-1102.webp 1102w",
+    "width": 1102
   },
   "/images/ChitroJera.png": {
-    "width": 1476,
+    "full": "/images/opt/ChitroJera-full.webp",
     "height": 740,
-    "webp": "/images/optimized/ChitroJera.webp"
+    "webp": "/images/opt/ChitroJera-400.webp 400w, /images/opt/ChitroJera-760.webp 760w, /images/opt/ChitroJera-1100.webp 1100w, /images/opt/ChitroJera-1476.webp 1476w",
+    "width": 1476
   },
   "/images/FRKAN.png": {
-    "width": 801,
-    "height": 476
+    "full": "/images/opt/FRKAN-full.webp",
+    "height": 476,
+    "webp": "/images/opt/FRKAN-400.webp 400w, /images/opt/FRKAN-801.webp 801w",
+    "width": 801
   },
   "/images/bdslig.png": {
-    "width": 1674,
+    "full": "/images/opt/bdslig-full.webp",
     "height": 384,
-    "webp": "/images/optimized/bdslig.webp"
+    "webp": "/images/opt/bdslig-400.webp 400w, /images/opt/bdslig-760.webp 760w, /images/opt/bdslig-1100.webp 1100w, /images/opt/bdslig-1674.webp 1674w",
+    "width": 1674
   },
   "/images/bnsentmix.png": {
-    "width": 867,
+    "full": "/images/opt/bnsentmix-full.webp",
     "height": 675,
-    "webp": "/images/optimized/bnsentmix.webp"
+    "webp": "/images/opt/bnsentmix-400.webp 400w, /images/opt/bnsentmix-867.webp 867w",
+    "width": 867
   },
   "/images/btl.png": {
-    "width": 1561,
+    "full": "/images/opt/btl-full.webp",
     "height": 420,
-    "webp": "/images/optimized/btl.webp"
+    "webp": "/images/opt/btl-400.webp 400w, /images/opt/btl-760.webp 760w, /images/opt/btl-1561.webp 1561w",
+    "width": 1561
   },
   "/images/clefNLP.png": {
-    "width": 1534,
-    "height": 645
+    "full": "/images/opt/clefNLP-full.webp",
+    "height": 645,
+    "webp": "/images/opt/clefNLP-400.webp 400w, /images/opt/clefNLP-760.webp 760w, /images/opt/clefNLP-1534.webp 1534w",
+    "width": 1534
   },
   "/images/clefV.png": {
-    "width": 821,
-    "height": 652
+    "full": "/images/opt/clefV-full.webp",
+    "height": 652,
+    "webp": "/images/opt/clefV-400.webp 400w, /images/opt/clefV-821.webp 821w",
+    "width": 821
   },
   "/images/computerUse.png": {
-    "width": 1712,
+    "full": "/images/opt/computerUse-full.webp",
     "height": 779,
-    "webp": "/images/optimized/computerUse.webp"
+    "webp": "/images/opt/computerUse-400.webp 400w, /images/opt/computerUse-760.webp 760w, /images/opt/computerUse-1712.webp 1712w",
+    "width": 1712
   },
   "/images/dora-explorer-overview.png": {
-    "width": 1618,
+    "full": "/images/opt/dora-explorer-overview-full.webp",
     "height": 742,
-    "webp": "/images/optimized/dora-explorer-overview.webp"
+    "webp": "/images/opt/dora-explorer-overview-400.webp 400w, /images/opt/dora-explorer-overview-760.webp 760w, /images/opt/dora-explorer-overview-1618.webp 1618w",
+    "width": 1618
   },
   "/images/frugalPrompt.png": {
-    "width": 1917,
-    "height": 421
+    "full": "/images/opt/frugalPrompt-full.webp",
+    "height": 421,
+    "webp": "/images/opt/frugalPrompt-400.webp 400w, /images/opt/frugalPrompt-760.webp 760w, /images/opt/frugalPrompt-1100.webp 1100w, /images/opt/frugalPrompt-1450.webp 1450w, /images/opt/frugalPrompt-full.webp 1917w",
+    "width": 1917
+  },
+  "/images/iut.jpg": {
+    "height": 438,
+    "webp": "/images/opt/iut-90.webp 90w, /images/opt/iut-180.webp 180w, /images/opt/iut-270.webp 270w",
+    "width": 438
   },
   "/images/knows-overview.png": {
-    "width": 1900,
+    "full": "/images/opt/knows-overview-full.webp",
     "height": 1069,
-    "webp": "/images/optimized/knows-overview.webp"
+    "webp": "/images/opt/knows-overview-400.webp 400w, /images/opt/knows-overview-760.webp 760w, /images/opt/knows-overview-1100.webp 1100w, /images/opt/knows-overview-full.webp 1900w",
+    "width": 1900
   },
   "/images/miniweb-overview.png": {
-    "width": 1876,
+    "full": "/images/opt/miniweb-overview-full.webp",
     "height": 659,
-    "webp": "/images/optimized/miniweb-overview.webp"
+    "webp": "/images/opt/miniweb-overview-400.webp 400w, /images/opt/miniweb-overview-760.webp 760w, /images/opt/miniweb-overview-1100.webp 1100w, /images/opt/miniweb-overview-1450.webp 1450w, /images/opt/miniweb-overview-1800.webp 1800w",
+    "width": 1876
   },
   "/images/nonlinear-narrative-overview.png": {
-    "width": 1632,
+    "full": "/images/opt/nonlinear-narrative-overview-full.webp",
     "height": 683,
-    "webp": "/images/optimized/nonlinear-narrative-overview.webp"
+    "webp": "/images/opt/nonlinear-narrative-overview-400.webp 400w, /images/opt/nonlinear-narrative-overview-760.webp 760w, /images/opt/nonlinear-narrative-overview-1632.webp 1632w",
+    "width": 1632
   },
   "/images/overviewRMMA.PNG": {
-    "width": 1613,
+    "full": "/images/opt/overviewRMMA-full.webp",
     "height": 505,
-    "webp": "/images/optimized/overviewRMMA.webp"
+    "webp": "/images/opt/overviewRMMA-400.webp 400w, /images/opt/overviewRMMA-760.webp 760w, /images/opt/overviewRMMA-1100.webp 1100w, /images/opt/overviewRMMA-1613.webp 1613w",
+    "width": 1613
+  },
+  "/images/penta.jpg": {
+    "height": 1065,
+    "webp": "/images/opt/penta-90.webp 90w, /images/opt/penta-180.webp 180w, /images/opt/penta-270.webp 270w",
+    "width": 1065
   },
   "/images/timeWarp.png": {
-    "width": 1825,
+    "full": "/images/opt/timeWarp-full.webp",
     "height": 671,
-    "webp": "/images/optimized/timeWarp.webp"
+    "webp": "/images/opt/timeWarp-400.webp 400w, /images/opt/timeWarp-760.webp 760w, /images/opt/timeWarp-1100.webp 1100w, /images/opt/timeWarp-1450.webp 1450w, /images/opt/timeWarp-full.webp 1825w",
+    "width": 1825
+  },
+  "/images/utah.png": {
+    "full": "/images/opt/utah-full.webp",
+    "height": 1800,
+    "webp": "/images/opt/utah-90.webp 90w, /images/opt/utah-180.webp 180w, /images/opt/utah-270.webp 270w",
+    "width": 1576
   },
   "/images/vlmDenoising.png": {
-    "width": 1791,
+    "full": "/images/opt/vlmDenoising-full.webp",
     "height": 546,
-    "webp": "/images/optimized/vlmDenoising.webp"
+    "webp": "/images/opt/vlmDenoising-400.webp 400w, /images/opt/vlmDenoising-760.webp 760w, /images/opt/vlmDenoising-1791.webp 1791w",
+    "width": 1791
   },
   "/images/vqaSurvey.png": {
-    "width": 1550,
+    "full": "/images/opt/vqaSurvey-full.webp",
     "height": 809,
-    "webp": "/images/optimized/vqaSurvey.webp"
+    "webp": "/images/opt/vqaSurvey-400.webp 400w, /images/opt/vqaSurvey-760.webp 760w, /images/opt/vqaSurvey-1550.webp 1550w",
+    "width": 1550
   },
   "/images/vre.png": {
-    "width": 1754,
+    "full": "/images/opt/vre-full.webp",
     "height": 680,
-    "webp": "/images/optimized/vre.webp"
+    "webp": "/images/opt/vre-400.webp 400w, /images/opt/vre-760.webp 760w, /images/opt/vre-1100.webp 1100w, /images/opt/vre-1754.webp 1754w",
+    "width": 1754
   },
   "/images/webkd-overview.png": {
-    "width": 2564,
+    "full": "/images/opt/webkd-overview-full.webp",
     "height": 1346,
-    "webp": "/images/optimized/webkd-overview.webp"
+    "webp": "/images/opt/webkd-overview-400.webp 400w, /images/opt/webkd-overview-760.webp 760w, /images/opt/webkd-overview-1100.webp 1100w, /images/opt/webkd-overview-1450.webp 1450w, /images/opt/webkd-overview-full.webp 2564w",
+    "width": 2564
   },
   "/images/webmix-overview.png": {
-    "width": 2546,
+    "full": "/images/opt/webmix-overview-full.webp",
     "height": 1378,
-    "webp": "/images/optimized/webmix-overview.webp"
+    "webp": "/images/opt/webmix-overview-400.webp 400w, /images/opt/webmix-overview-760.webp 760w, /images/opt/webmix-overview-1100.webp 1100w, /images/opt/webmix-overview-1450.webp 1450w, /images/opt/webmix-overview-1800.webp 1800w",
+    "width": 2546
+  },
+  "/images/yaana.jpg": {
+    "height": 200,
+    "webp": "/images/opt/yaana-90.webp 90w, /images/opt/yaana-180.webp 180w, /images/opt/yaana-200.webp 200w",
+    "width": 200
   }
 }

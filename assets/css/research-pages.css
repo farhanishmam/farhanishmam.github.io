@@ -183,6 +183,12 @@
   border-top: 1px solid var(--line, #dedfd9);
 }
 
+/* The logo now ships as a <picture>; keep it a block so the img still
+   resolves its 100% width against the 90px grid column. */
+.experience-logo picture {
+  display: block;
+}
+
 .experience-logo img {
   display: block;
   width: 100%;

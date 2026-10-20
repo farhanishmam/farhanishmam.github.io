@@ -1,7 +1,15 @@
+{%- comment -%}
+Responsive figure. `sizes` must describe the box the image is drawn in so the
+browser can pick the narrowest variant that still covers the device pixels;
+without it browsers assume 100vw and download a needlessly large file. Pages set
+it once as `figure_sizes` in their front matter.
+Variants come from _data/research_images.json (scripts/optimize-images.py).
+{%- endcomment -%}
 {%- assign image = site.data.research_images[include.src] -%}
+{%- assign sizes = include.sizes | default: page.figure_sizes | default: '100vw' -%}
 <picture>
   {%- if image.webp -%}
-  <source srcset="{{ image.webp | relative_url }}" type="image/webp">
+  <source srcset="{{ image.webp }}" sizes="{{ sizes }}" type="image/webp">
   {%- endif -%}
-  <img src="{{ include.src | relative_url }}"{% if image %} width="{{ image.width }}" height="{{ image.height }}"{% endif %} alt="{{ include.alt | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async"{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+  <img src="{{ include.src | relative_url }}"{% if image %} width="{{ image.width }}" height="{{ image.height }}"{% endif %}{% if image.full %} data-full="{{ image.full | relative_url }}"{% endif %} alt="{{ include.alt | escape }}"{% if include.class %} class="{{ include.class }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}" decoding="async"{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
 </picture>

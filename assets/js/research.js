@@ -43,8 +43,9 @@
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       opener = link;
-      // Research sources are full resolution; reuse the browser's cached format.
-      fullImage.src = thumbnail.currentSrc || link.href;
+      // The thumbnail is now a downscaled srcset variant, so the overlay takes
+      // data-full (a lossless full-resolution WebP) and falls back to the PNG.
+      fullImage.src = thumbnail.dataset.full || link.href;
       fullImage.alt = thumbnail.alt;
       document.documentElement.classList.add('image-preview-open');
       preview.showModal();

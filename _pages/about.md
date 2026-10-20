@@ -7,6 +7,7 @@ extra_css: research-map
 redirect_from:
   - /about/
   - /about.html
+figure_sizes: "(max-width: 400px) calc(100vw - 52px), (max-width: 760px) calc(100vw - 64px), (max-width: 1223px) calc(100vw - 353px), 871px"
 ---
 
 <div class="fi-index">
