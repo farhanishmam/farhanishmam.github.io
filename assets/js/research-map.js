@@ -74,7 +74,6 @@
         { source: 'BP',  target: 'VQS'  },
         { source: 'VCD', target: 'VQS'  },
         { source: 'RMA', target: 'VQS'  },
-        { source: 'CUS', target: 'VQS'  },
         { source: 'SPIP', target: 'VQS'  },
         { source: 'BTL', target: 'BSM'  },
         { source: 'TPB', target: 'BSM'  },
