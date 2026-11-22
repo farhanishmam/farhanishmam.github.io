@@ -19,7 +19,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
   <div class="pub-nav-title">Research Topics</div>
     <a href="#agentic-systems">Agentic Systems</a>
     <a href="#llm-creativity">LLM Creativity</a>
-    <a href="#vision-language-adapters">Vision-Language Adapters</a>
+    <a href="#vision-language-adapters">Vision-Language Models</a>
     <a href="#prompt-compression">Prompt Compression</a>
     <a href="#vqa">Visual Question Answering</a>
     <a href="#transliteration">Transliteration & Code-Mixing</a>
@@ -35,17 +35,53 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
     <div class="pub-section" id="agentic-systems">
       <h2 class="section-title">Agentic Systems</h2>
 
-      <div class="pub-img-wrap" id="miniweb">
-          <a href="{{ '/images/miniweb-overview.png' | relative_url }}">
-              {% include research-image.html src="/images/miniweb-overview.png" alt="MiniWeb overview: 65 connected websites across 15 domains for practicing and evaluating web-agent skills" loading="eager" fetchpriority="high" %}
+      <div class="pub-img-wrap" id="duelweb">
+          <a href="{{ '/images/duelweb-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/duelweb-overview.png" alt="DuelWeb overview: Alice explores the live web, a frozen relabeler writes a task from the page she reaches, and she is rewarded when Bob fails it; both share one open-weight VLM with no teacher model" loading="eager" fetchpriority="high" %}
           </a>
           <div class="section-item">
-              <strong>Back to Basics: Drills Before Games for Web Agents</strong><br>
+              <strong>Alice and Bob Surf the Web: Co-training VLMs to Create and Solve Web Tasks</strong><br>
               <em>Under review, 2026</em><br>
+              Pratibodh Solanki, <strong class="author-name">Md Farhan Ishmam</strong>, Kenneth Marino<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1SjHTwCs1pUTsg4OWJJBH0PzJdTj__NqZ/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="dynawebbench">
+          <a href="{{ '/images/dynawebbench-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/dynawebbench-overview.png" alt="DynaWebBench adaptive evaluation: each capability starts at medium difficulty and skips tiers whose outcome is already clear" %}
+          </a>
+          <div class="section-item">
+              <strong>DynaWebBench: Adaptive Evaluation of Visual Web Agents</strong><br>
+              <em>Under review, 2026</em><br>
+              Parth Desai, <strong class="author-name">Md Farhan Ishmam</strong>, Kenneth Marino<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1qa0ucGuNBMojWtu0Fxl3zfkZ-xNpMWSA/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="mdr">
+          <a href="{{ '/images/mdr-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/mdr-overview.png" alt="MDR overview: an adversarial image misleads a web agent, a global defense corrupts the whole page, and MDR localizes and rectifies only the flagged pixels" %}
+          </a>
+          <div class="section-item">
+              <strong>MDR: Localized Test-Time Rectification of Adversarial Images for Web Agents</strong><br>
+              <em>Under review, 2026</em><br>
+              Tauseef Tajwar, Akib Mohammed Khan, <strong class="author-name">Md Farhan Ishmam</strong>, Alif Ashrafee, Kenneth Marino, Bartosz Krawczyk<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1HVgMAdrZnQf-IiirAWh7FyuXtevMvFDW/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="miniweb">
+          <a href="{{ '/images/miniweb-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/miniweb-overview.png" alt="MiniWeb overview: 65 connected websites across 15 domains for practicing and evaluating web-agent skills" %}
+          </a>
+          <div class="section-item">
+              <strong>Back to Basics: A Skill-Centric Approach to Generalist Web Agents</strong><br>
+              <em>ArXiv'26</em><br>
               Minh Pham-Dinh, <strong class="author-name">Md Farhan Ishmam</strong>, Hernan Yupanqui, Reaz Hassan Joarder, Kenneth Marino<br>
-              <a class="transparent-button" href="https://miniweb-site.github.io/" target="_blank" rel="noopener">Project Page</a>
-              <a class="transparent-button" href="https://github.com/miniweb-site/MiniWeb" target="_blank" rel="noopener">Code</a>
-              <a class="transparent-button" href="https://huggingface.co/datasets/miniweb/MiniWeb" target="_blank" rel="noopener">Dataset</a>
+              <a class="transparent-button" href="https://minhphd.github.io/miniweb/" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2610.35823" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/sparklabutah/MiniWeb" target="_blank" rel="noopener">Code</a>
           </div>
       </div>
 
@@ -77,6 +113,17 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           </div>
       </div>
 
+      <div class="pub-img-wrap" id="slm-agents">
+          <a href="{{ '/images/slm-agents-probe.png' | relative_url }}">
+              {% include research-image.html src="/images/slm-agents-probe.png" alt="Linear-probe accuracy across the layers of Qwen3-0.6B for the expert's next action type and its argument, well above the majority class from the first layer" %}
+          </a>
+          <div class="section-item">
+              <strong>SLMs are Almost Zero-shot Agents</strong><br>
+              <em>Under review, 2026</em><br>
+              Reaz Hassan Joarder, <strong class="author-name">Md Farhan Ishmam</strong>, Fateme Hashemi Chaleshtori, Kenneth Marino<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1EKNgVdj_PClIZ3Hz1LeUVpF3__09tAy_/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
 
       <div class="pub-img-wrap">
           <a href="/images/timeWarp.png">
@@ -100,11 +147,11 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           </a>
           <div class="section-item">
               <strong>DORA Explorer: Improving the Exploration Ability of LLMs Without Training</strong><br>
-              <em>ArXiv'26</em><br>
+              <em>EACL'26 Findings</em><br>
               Priya Gurjar, <strong class="author-name">Md Farhan Ishmam</strong>, Kenneth Marino<br>
               <a class="transparent-button" href="https://dora-explore.github.io/" target="_blank" rel="noopener">Project Page</a>
               <a class="transparent-button" href="https://arxiv.org/abs/2604.17244" target="_blank" rel="noopener">Paper</a>
-              <a class="transparent-button" href="https://anonymous.4open.science/r/DORA_explorer/README.md" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://github.com/sparklabutah/DORA_explorer" target="_blank" rel="noopener">Code</a>
           </div>
       </div>
 
@@ -120,6 +167,18 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
               <a class="transparent-button" href="https://arxiv.org/abs/2609.30604" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/alexgill321/KNOWS-benchmark" target="_blank" rel="noopener">Code</a>
               <a class="transparent-button" href="https://huggingface.co/datasets/utahnlp/knows-benchmark" target="_blank" rel="noopener">Dataset</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="qualcoder">
+          <a href="{{ '/images/qualcoder-overview.jpg' | relative_url }}">
+              {% include research-image.html src="/images/qualcoder-overview.jpg" alt="QualCoder framework: high-level planner, sub-task planner, quality assurance, coding, and debugging agents with a QA gate before implementation" %}
+          </a>
+          <div class="section-item">
+              <strong>QualCoder: A Quality-Driven Multi-Agent Framework for Automated Code Generation</strong><br>
+              <em>Under review, 2026</em><br>
+              Sadnam Sakib Apurbo, Zaara Zabeen Arpa, Nazia Karim Khan Oishee, <strong class="author-name">Md Farhan Ishmam</strong>, Abu Raihan Mostofa Kamal, Md Azam Hossain<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1IgsgLKCWb4lfqQ7UyNVScoYx6J08XUan/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
           </div>
       </div>
 
@@ -146,7 +205,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           <div class="section-item">
               <strong>Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation</strong><br>
               <em>ArXiv'26</em><br>
-              Syed Rifat Raiyan, Md. Tariquzzaman, <strong class="author-name">Md Farhan Ishmam</strong>, Tenghao Huang<br>
+              Syed Rifat Raiyan*, Md. Tariquzzaman*, <strong class="author-name">Md Farhan Ishmam</strong>, Tenghao Huang<br>
               <a class="transparent-button" href="https://nonlinear-narrative.github.io/" target="_blank" rel="noopener">Project Page</a>
               <a class="transparent-button" href="https://arxiv.org/abs/2610.21468" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/Starscream-11813/LLM-nonlinear-storytelling" target="_blank" rel="noopener">Code</a>
@@ -155,7 +214,45 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
     </div>
 
     <div class="pub-section" id="vision-language-adapters">
-      <h2 class="section-title">Vision-Language Adapters</h2>
+      <h2 class="section-title">Vision-Language Models</h2>
+
+      <div class="pub-img-wrap" id="viscurate">
+          <a href="{{ '/images/viscurate-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/viscurate-overview.png" alt="VisCurate overview: pairwise verification runs two visual skills on shared probes to assign a behavioral relation, which an LLM curator uses to make verified library edits" %}
+          </a>
+          <div class="section-item">
+              <strong>VisCurate: Evaluating Behavioral Equivalence of Visual Skills</strong><br>
+              <em>WACV'27</em><br>
+              Md Farhan Ishraq, <strong class="author-name">Md Farhan Ishmam</strong>, Reaz Hassan Joarder, Md Hasanul Kabir<br>
+              <a class="transparent-button" href="https://farhanishraq17.github.io/Viscurate-Website/" target="_blank" rel="noopener">Project Page</a>
+              <a class="transparent-button" href="https://arxiv.org/abs/2610.30405" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/farhanishraq17/VisCurate-" target="_blank" rel="noopener">Code</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="typeset-vlm">
+          <a href="{{ '/images/typeset-vlm-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/typeset-vlm-overview.png" alt="Rendering a question as an image: with Typst's default line spacing the VLM answers wrongly, while the recipe's wider baseline spacing gives the correct answer" %}
+          </a>
+          <div class="section-item">
+              <strong>How Should We Typeset for Vision-Language Models?</strong><br>
+              <em>Under review, 2026</em><br>
+              Kyle Lemoi, <strong class="author-name">Md Farhan Ishmam</strong><br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/1fLSmpPOImdU6Uypq_Xx8ua4VucB8phmb/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
+
+      <div class="pub-img-wrap" id="m-wspo">
+          <a href="{{ '/images/mwspo-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/mwspo-overview.png" alt="M-WSPO overview: a frozen weak model pair provides preference signals across matched, corrupted-image, and losing-response configurations to train a stronger multimodal model" %}
+          </a>
+          <div class="section-item">
+              <strong>M-WSPO: Weak-to-Strong Preference Optimization for Visually Grounded Multimodal Alignment</strong><br>
+              <em>Under review, 2026</em><br>
+              Md Zarif Hossain*, <strong class="author-name">Md Farhan Ishmam*</strong>, Md Fahim, Kenneth Marino, Ahmed Imteaj<br>
+              <a class="transparent-button" href="https://drive.google.com/file/d/19Ca2ejkSLGe9cF_9O8kPvG99X0UKGQ3o/view?usp=sharing" target="_blank" rel="noopener">Paper</a>
+          </div>
+      </div>
 
       <div class="pub-img-wrap">
           <a href="/images/overviewRMMA.PNG">
@@ -182,8 +279,8 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           </a>
           <div class="section-item">
               <strong>FrugalPrompt: Reducing Contextual Overhead in Large Language Models via Token Attribution</strong><br>
-              <em><a href="https://arxiv.org/abs/2510.16439">ArXiv'26</a></em><br>
-              Syed Rifat Raiyan, <strong class="author-name">Md Farhan Ishmam</strong>, Abdullah Al Imran, Mohammad Ali Moni<br>
+              <em>LUHME@EMNLP'26</em><br>
+              Syed Rifat Raiyan*, <strong class="author-name">Md Farhan Ishmam*</strong>, Abdullah Al Imran, Mohammad Ali Moni<br>
               <a class="transparent-button" href="https://frugalprompt.github.io/" target="_blank" rel="noopener">Project Page</a>
               <a class="transparent-button" href="https://arxiv.org/abs/2510.16439" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/Starscream-11813/Frugal-ICL" target="_blank" rel="noopener">Code</a>
@@ -250,7 +347,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           <div class="section-item">
               <strong>ChitroJera: A Regionally Relevant Visual Question Answering Dataset for Bangla</strong><br>
               <em><a href="https://ecmlpkdd.org/2025/">ECML-PKDD'25</a></em><br>
-              Deeparghya Dutta Barua*, Md Sakib Ul Rahman Sourove*, <strong class="author-name">Md Farhan Ishmam*</strong>, Fabiha Haider, Fariha Tanjim Shifat, Md Fahim, Farhad Alam Bhuiyan<br>
+              Deeparghya Dutta Barua*, Md Sakib Ul Rahman Sourove*, Md Fahim*, Fabiha Haider, Fariha Tanjim Shifat, Md Tasmim Rahman Adib, Anam Borhan Uddin, <strong class="author-name">Md Farhan Ishmam</strong>, Md Farhad Alam Bhuiyan<br>
               <a class="transparent-button" href="https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_1389.pdf" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/farhanishmam/ChitroJera" target="_blank" rel="noopener">Code</a>
               <a class="transparent-button" href="https://www.kaggle.com/datasets/sourove/chitrojera" target="_blank" rel="noopener">Dataset</a>
@@ -267,7 +364,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
               <strong>From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities</strong><br>
               <em><a href="https://www.sciencedirect.com/journal/information-fusion">Information Fusion Journal</a></em> | <em>2024</em><br>
               <strong class="author-name">Md Farhan Ishmam</strong>, Md Sakib Hossain Shovon, Muhammad Firoz Mridha, Nilanjan Dey<br>
-              <a class="transparent-button" href="https://www.sciencedirect.com/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524000484" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://arxiv.org/abs/2311.00308" target="_blank" rel="noopener">ArXiv</a>
           </div>
       </div>
@@ -283,7 +380,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           <div class="section-item">
               <strong>Robustness of LLMs to Transliteration Perturbations in Bangla</strong><br>
               🏆 Best Paper <em><a href="https://blp-workshop.github.io/">BLP@IJCNLP-AACL'25</a></em><br>
-              Fabiha Haider, <strong class="author-name">Md Farhan Ishmam</strong>, Fariha Tanjim Shifat, Md Tasmim Rahman, Md Fahim, Md Farhad Alam Bhuiyan<br>
+              Fabiha Haider*, <strong class="author-name">Md Farhan Ishmam*</strong>, Fariha Tanjim Shifat, Md Tasmim Rahman, Md Fahim, Md Farhad Alam Bhuiyan<br>
               <a class="transparent-button" href="https://aclanthology.org/2025.banglalp-1.27.pdf" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/farhanishmam/BTL-Robustness" target="_blank" rel="noopener">Code</a>
               <a class="transparent-button" href="https://drive.google.com/file/d/1z5x49OydU7w8gt077706SK49d-m9FEH1/view" target="_blank" rel="noopener">Poster</a>
@@ -379,6 +476,20 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
     <div class="pub-section" id="harmful-content">
       <h2 class="section-title">Harmful Content</h2>
 
+      <div class="pub-img-wrap" id="banhadex">
+          <a href="{{ '/images/banhadex-overview.png' | relative_url }}">
+              {% include research-image.html src="/images/banhadex-overview.png" alt="BanHADEX examples: Bangla YouTube comments with English translations and human-written explanations, grouped by hate category around the category distribution" %}
+          </a>
+          <div class="section-item">
+              <strong>BanHADEX: Towards Explainable HAte Speech Detection in Bangla Using Human Annotated EXplanation</strong><br>
+              <em>ACL'26</em><br>
+              Faisal Hossain Raquib*, Akm Moshiur Rahman*, Md Fahim*, Md Tahmid Hasan Fuad, <strong class="author-name">Md Farhan Ishmam</strong>, Faria Sultana, M Ashraful Amin, Amin Ahsan Ali, AKM Mahbubur Rahman<br>
+              <a class="transparent-button" href="https://aclanthology.org/2026.acl-long.2022/" target="_blank" rel="noopener">Paper</a>
+              <a class="transparent-button" href="https://github.com/MOSHIIUR/BANHADEX" target="_blank" rel="noopener">Code</a>
+              <a class="transparent-button" href="https://huggingface.co/datasets/pltops/BANHADEX" target="_blank" rel="noopener">Dataset</a>
+          </div>
+      </div>
+
       <div class="pub-img-wrap">
           <a href="/images/clefNLP.png">
               {% include research-image.html src="/images/clefNLP.png" alt="Penta NLP at EXIST 2024 paper figure" %}
@@ -399,7 +510,7 @@ figure_sizes: "(max-width: 560px) calc(100vw - 58px), (max-width: 820px) calc((1
           <div class="section-item">
               <strong>Penta ML at EXIST 2024: Tagging Sexism in Online Multimodal Content With Attention-enhanced Modal Context</strong><br>
               <em><a href="http://nlp.uned.es/exist2024/">EXIST@CLEF'24</a></em><br>
-              Deeparghya Dutta Barua, Md Sakib Ul Rah Rahman Sourove, Fabiha Haider, Fariha Tanjim Shifat, <strong class="author-name">Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
+              Deeparghya Dutta Barua, Md Sakib Ul Rahman Sourove, Fabiha Haider, Fariha Tanjim Shifat, <strong class="author-name">Md Farhan Ishmam</strong>, Md Fahim, Farhad Alam Bhuiyan<br>
               <a class="transparent-button" href="https://ceur-ws.org/Vol-3740/paper-90.pdf" target="_blank" rel="noopener">Paper</a>
               <a class="transparent-button" href="https://github.com/farhanishmam/Penta-Exist-2024" target="_blank" rel="noopener">Code</a>
           </div>

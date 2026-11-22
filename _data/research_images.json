@@ -29,6 +29,12 @@
     "webp": "/images/opt/FRKAN-400.webp 400w, /images/opt/FRKAN-801.webp 801w",
     "width": 801
   },
+  "/images/banhadex-overview.png": {
+    "full": "/images/opt/banhadex-overview-full.webp",
+    "height": 1212,
+    "webp": "/images/opt/banhadex-overview-400.webp 400w, /images/opt/banhadex-overview-760.webp 760w, /images/opt/banhadex-overview-1100.webp 1100w, /images/opt/banhadex-overview-1450.webp 1450w, /images/opt/banhadex-overview-full.webp 2601w",
+    "width": 2601
+  },
   "/images/bdslig.png": {
     "full": "/images/opt/bdslig-full.webp",
     "height": 384,
@@ -71,6 +77,18 @@
     "webp": "/images/opt/dora-explorer-overview-400.webp 400w, /images/opt/dora-explorer-overview-760.webp 760w, /images/opt/dora-explorer-overview-1618.webp 1618w",
     "width": 1618
   },
+  "/images/duelweb-overview.png": {
+    "full": "/images/opt/duelweb-overview-full.webp",
+    "height": 614,
+    "webp": "/images/opt/duelweb-overview-400.webp 400w, /images/opt/duelweb-overview-760.webp 760w, /images/opt/duelweb-overview-1100.webp 1100w, /images/opt/duelweb-overview-1450.webp 1450w, /images/opt/duelweb-overview-1800.webp 1800w",
+    "width": 2600
+  },
+  "/images/dynawebbench-overview.png": {
+    "full": "/images/opt/dynawebbench-overview-full.webp",
+    "height": 428,
+    "webp": "/images/opt/dynawebbench-overview-400.webp 400w, /images/opt/dynawebbench-overview-760.webp 760w, /images/opt/dynawebbench-overview-1100.webp 1100w, /images/opt/dynawebbench-overview-1450.webp 1450w, /images/opt/dynawebbench-overview-full.webp 2601w",
+    "width": 2601
+  },
   "/images/frugalPrompt.png": {
     "full": "/images/opt/frugalPrompt-full.webp",
     "height": 421,
@@ -88,11 +106,23 @@
     "webp": "/images/opt/knows-overview-400.webp 400w, /images/opt/knows-overview-760.webp 760w, /images/opt/knows-overview-1100.webp 1100w, /images/opt/knows-overview-full.webp 1900w",
     "width": 1900
   },
+  "/images/mdr-overview.png": {
+    "full": "/images/opt/mdr-overview-full.webp",
+    "height": 951,
+    "webp": "/images/opt/mdr-overview-400.webp 400w, /images/opt/mdr-overview-760.webp 760w, /images/opt/mdr-overview-1100.webp 1100w, /images/opt/mdr-overview-1450.webp 1450w, /images/opt/mdr-overview-1800.webp 1800w",
+    "width": 2600
+  },
   "/images/miniweb-overview.png": {
     "full": "/images/opt/miniweb-overview-full.webp",
     "height": 659,
     "webp": "/images/opt/miniweb-overview-400.webp 400w, /images/opt/miniweb-overview-760.webp 760w, /images/opt/miniweb-overview-1100.webp 1100w, /images/opt/miniweb-overview-1450.webp 1450w, /images/opt/miniweb-overview-1800.webp 1800w",
     "width": 1876
+  },
+  "/images/mwspo-overview.png": {
+    "full": "/images/opt/mwspo-overview-full.webp",
+    "height": 1200,
+    "webp": "/images/opt/mwspo-overview-400.webp 400w, /images/opt/mwspo-overview-760.webp 760w, /images/opt/mwspo-overview-1100.webp 1100w, /images/opt/mwspo-overview-1450.webp 1450w, /images/opt/mwspo-overview-1800.webp 1800w",
+    "width": 2600
   },
   "/images/nonlinear-narrative-overview.png": {
     "full": "/images/opt/nonlinear-narrative-overview-full.webp",
@@ -111,17 +141,40 @@
     "webp": "/images/opt/penta-90.webp 90w, /images/opt/penta-180.webp 180w, /images/opt/penta-270.webp 270w",
     "width": 1065
   },
+  "/images/qualcoder-overview.jpg": {
+    "height": 1254,
+    "webp": "/images/opt/qualcoder-overview-400.webp 400w, /images/opt/qualcoder-overview-760.webp 760w, /images/opt/qualcoder-overview-1100.webp 1100w, /images/opt/qualcoder-overview-1450.webp 1450w, /images/opt/qualcoder-overview-1800.webp 1800w",
+    "width": 3189
+  },
+  "/images/slm-agents-probe.png": {
+    "full": "/images/opt/slm-agents-probe-full.webp",
+    "height": 714,
+    "webp": "/images/opt/slm-agents-probe-400.webp 400w, /images/opt/slm-agents-probe-760.webp 760w, /images/opt/slm-agents-probe-1100.webp 1100w, /images/opt/slm-agents-probe-1450.webp 1450w, /images/opt/slm-agents-probe-full.webp 2600w",
+    "width": 2600
+  },
   "/images/timeWarp.png": {
     "full": "/images/opt/timeWarp-full.webp",
     "height": 671,
     "webp": "/images/opt/timeWarp-400.webp 400w, /images/opt/timeWarp-760.webp 760w, /images/opt/timeWarp-1100.webp 1100w, /images/opt/timeWarp-1450.webp 1450w, /images/opt/timeWarp-full.webp 1825w",
     "width": 1825
   },
+  "/images/typeset-vlm-overview.png": {
+    "full": "/images/opt/typeset-vlm-overview-full.webp",
+    "height": 955,
+    "webp": "/images/opt/typeset-vlm-overview-400.webp 400w, /images/opt/typeset-vlm-overview-760.webp 760w, /images/opt/typeset-vlm-overview-1100.webp 1100w, /images/opt/typeset-vlm-overview-1450.webp 1450w, /images/opt/typeset-vlm-overview-1800.webp 1800w",
+    "width": 2601
+  },
   "/images/utah.png": {
     "full": "/images/opt/utah-full.webp",
     "height": 1800,
     "webp": "/images/opt/utah-90.webp 90w, /images/opt/utah-180.webp 180w, /images/opt/utah-270.webp 270w",
     "width": 1576
+  },
+  "/images/viscurate-overview.png": {
+    "full": "/images/opt/viscurate-overview-full.webp",
+    "height": 1608,
+    "webp": "/images/opt/viscurate-overview-400.webp 400w, /images/opt/viscurate-overview-760.webp 760w, /images/opt/viscurate-overview-1100.webp 1100w, /images/opt/viscurate-overview-1450.webp 1450w, /images/opt/viscurate-overview-full.webp 2600w",
+    "width": 2600
   },
   "/images/vlmDenoising.png": {
     "full": "/images/opt/vlmDenoising-full.webp",
